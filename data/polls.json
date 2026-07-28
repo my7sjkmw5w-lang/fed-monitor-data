@@ -1,0 +1,83 @@
+{
+  "note": "Static snapshot of published Reuters economist poll results and market-implied odds context. Refreshed periodically by the maintainer (not live-fetched at runtime) because no free real-time API exists for Reuters/FactSet consensus data. Each entry cites its source article.",
+  "last_curated": "2026-07-27",
+  "snapshots": [
+    {
+      "poll_date": "2026-03-26",
+      "headline": "Fed still set to cut US rates late this year, say economists, rejecting market pricing",
+      "hold_through_q2": {
+        "count": 61,
+        "total": 82,
+        "pct": 74.4
+      },
+      "market_context": "Market already pricing ~30% chance of a hike at time of poll",
+      "url": "https://www.reuters.com/business/fed-still-set-cut-us-rates-late-this-year-say-economists-rejecting-market-2026-03-26/"
+    },
+    {
+      "poll_date": "2026-04-22",
+      "headline": "Fed rate cut pushed back to late 2026 on war-related inflation risks",
+      "hold_through_sept": {
+        "count": 56,
+        "total": 103,
+        "pct": 54.4
+      },
+      "market_context": "Majority of economists still expected at least one cut in 2026 at time of poll",
+      "url": "https://www.reuters.com/world/middle-east/fed-rate-cut-pushed-back-late-2026-war-related-inflation-risks-2026-04-22/"
+    },
+    {
+      "poll_date": "2026-06-09",
+      "headline": "Fed to hold rates this year, cut calls fade as war, inflation persist",
+      "hold_through_2026": {
+        "count": 72,
+        "total": 102,
+        "pct": 70.6
+      },
+      "market_context": "No economist expected a cut at the June 16-17 meeting (Chair Warsh's first)",
+      "url": "https://www.investing.com/news/economy-news/fed-to-hold-rates-this-year-cut-calls-fade-as-war-inflation-persists-economists-say-reuters-poll-4732517"
+    },
+    {
+      "poll_date": "2026-07-21",
+      "headline": "Fed to hold rates this year despite high inflation, economists say, but cite high chances of a hike",
+      "hold_at_july": {
+        "count": 104,
+        "total": 104,
+        "pct": 100
+      },
+      "hold_through_year_end": {
+        "count": 78,
+        "total": 104,
+        "pct": 75.0
+      },
+      "hike_likelihood_high": {
+        "count": 44,
+        "total": 67,
+        "pct": 65.7,
+        "note": "of economists answering supplemental question on hike probability"
+      },
+      "pce_latest": {
+        "value_pct": 4.1,
+        "as_of": "2026-05",
+        "target_pct": 2.0
+      },
+      "url": "https://www.reuters.com/world/fed-hold-rates-this-year-despite-high-inflation-economists-cite-high-chances-2026-07-21/"
+    }
+  ],
+  "market_implied_reference": [
+    {
+      "as_of": "2026-07-16",
+      "meeting": "2026-09-16",
+      "hike_odds_pct": 53,
+      "url": "https://www.cnbc.com/2026/07/23/fed-interest-rate-odds-oil-jobless-claims.html"
+    },
+    {
+      "as_of": "2026-07-23",
+      "meeting": "2026-09-16",
+      "hike_odds_pct": 82,
+      "meeting_july": "2026-07-29",
+      "hike_odds_pct_july": 38,
+      "kalshi_hike_odds_pct_sept": 48,
+      "factset_consensus": "No hike priced this year; 50bp cut expected in 2027",
+      "url": "https://www.cnbc.com/2026/07/23/fed-interest-rate-odds-oil-jobless-claims.html"
+    }
+  ]
+}
