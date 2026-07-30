@@ -1,0 +1,118 @@
+{
+  "as_of": "2026-07-30T10:47:00Z",
+  "generated_by": "fed-monitor daily refresh",
+  "fed_funds": {
+    "target_range_low": 3.50,
+    "target_range_high": 3.75,
+    "effective_rate": 3.75,
+    "effective_rate_date": "2026-06-17",
+    "last_decision_date": "2026-07-29",
+    "last_decision": "Hold",
+    "vote": "9-3",
+    "dissents": ["Beth M. Hammack (favored 25bp hike)", "Neel Kashkari (favored 25bp hike)", "Lorie K. Logan (favored 25bp hike)"],
+    "consecutive_holds": 5,
+    "iorb_rate": 3.65,
+    "primary_credit_rate": 3.75,
+    "prime_rate_est": 6.75,
+    "chair": "Kevin Warsh",
+    "source": "Federal Reserve",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
+  },
+  "treasury_yields": [
+    { "label": "13-Week Bill", "maturity": "13W", "yield_pct": 3.66, "change": -0.10, "change_pct": -2.71, "as_of": "2026-07-29", "ticker": "^IRX" },
+    { "label": "5-Year Note", "maturity": "5Y", "yield_pct": 4.35, "change": -0.01, "change_pct": -0.21, "as_of": "2026-07-29", "ticker": "^FVX" },
+    { "label": "10-Year Note", "maturity": "10Y", "yield_pct": 4.62, "change": 0.02, "change_pct": 0.39, "as_of": "2026-07-29", "ticker": "^TNX" },
+    { "label": "30-Year Bond", "maturity": "30Y", "yield_pct": 5.14, "change": 0.05, "change_pct": 0.92, "as_of": "2026-07-29", "ticker": "^TYX" }
+  ],
+  "treasury_source": "Perplexity Finance (Yahoo Finance indices)",
+  "inflation": {
+    "cpi_yoy": { "value_pct": 3.5, "prev_pct": 4.2, "as_of": "2026-06-30" },
+    "core_cpi_yoy": { "value_pct": 2.6, "prev_pct": 2.9, "as_of": "2026-06-30" },
+    "cpi_mom": { "value_pct": -0.4, "prev_pct": 0.5, "as_of": "2026-06-30" },
+    "pce_yoy": { "value_pct": 4.1, "prev_pct": 3.8, "as_of": "2026-05-31" },
+    "core_pce_yoy": { "value_pct": 3.4, "prev_pct": 3.3, "as_of": "2026-05-31" },
+    "pce_mom": { "value_pct": 0.4, "prev_pct": 0.4, "as_of": "2026-05-31" },
+    "fed_target_pct": 2.0,
+    "unemployment_rate": { "value_pct": 4.2, "prev_pct": 4.3, "as_of": "2026-06-30" },
+    "source": "U.S. Bureau of Labor Statistics / U.S. Bureau of Economic Analysis",
+    "source_url": "https://www.bls.gov"
+  },
+  "oil": {
+    "wti": { "price_usd": 83.66, "change": -0.80, "change_pct": -0.95, "day_low": 83.23, "day_high": 85.93, "as_of": "2026-07-30", "ticker": "CLUSD" },
+    "brent": { "price_usd": 87.33, "change": -0.88, "change_pct": -1.00, "day_low": 86.82, "day_high": 89.50, "as_of": "2026-07-30", "ticker": "BZUSD" },
+    "context": "Prices remain elevated on Middle East supply concerns tied to ongoing Iran-related tensions.",
+    "source": "Perplexity Finance market data"
+  },
+  "fomc_meetings": {
+    "next_meeting": {
+      "date_range": "2026-09-15 to 2026-09-16",
+      "decision_date": "2026-09-16",
+      "market_implied_odds": [
+        { "as_of": "2026-07-30", "hold_pct": 42.6, "hike_pct": 57.4, "source": "Reuters / CME FedWatch", "source_url": "https://www.reuters.com/world/asia-pacific/dollar-steadies-fed-holds-rates-us-strikes-iran-2026-07-30/" },
+        { "as_of": "2026-07-30", "hold_pct": 42.9, "hike_25bp_pct": 46.6, "hike_50bp_plus_pct": 10.6, "source": "Investing.com Fed Rate Monitor (CME futures)", "source_url": "https://uk.investing.com/central-banks/fed-rate-monitor" },
+        { "as_of": "2026-07-30", "hold_pct": 19.0, "hike_pct": 81.0, "cut_pct": 0.0, "source": "CME FedWatch via Southeast AgNet", "source_url": "https://southeastagnet.com/2026/07/30/cme-fedwatch-signals-high-odds-september-rate-hike/" },
+        { "as_of": "2026-07-30", "hike_pct": 65.2, "note": "down from 81% before the July policy statement", "source": "CME FedWatch via Reuters/J.P.Morgan note", "source_url": "https://whtc.com/2026/07/30/j-p-morgan-brings-forward-fed-rate-hike-call-to-december-after-july-hold/" },
+        { "as_of": "2026-07-29", "hike_pct": 57.0, "source": "CNBC / CME FedWatch", "source_url": "https://www.cnbc.com/2026/07/29/fed-meeting-interest-rates-warsh-stocks-bonds.html" }
+      ],
+      "consensus_note": "Market-implied odds are volatile post-decision, ranging roughly 55-80% probability of a 25bp hike depending on source/timing. J.P. Morgan now expects the next hike in December 2026 rather than September, while flagging September hike risk remains live if inflation stays hot.",
+      "economist_forecast": "FactSet consensus (as of 2026-07-23): no hike priced in for 2026; a 50bp cut is expected in 2027.",
+      "economist_forecast_source_url": "https://www.cnbc.com/2026/07/23/fed-interest-rate-odds-oil-jobless-claims.html"
+    },
+    "upcoming_calendar": [
+      { "date_range": "2026-09-15 to 2026-09-16", "status": "upcoming" },
+      { "date_range": "2026-10-27 to 2026-10-28", "status": "upcoming" },
+      { "date_range": "2026-12-08 to 2026-12-09", "status": "upcoming" }
+    ],
+    "calendar_source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "year_end_odds": {
+      "at_least_one_hike_pct": 80,
+      "as_of": "2026-07-30",
+      "source": "EBC Markets analysis of CME FedWatch",
+      "source_url": "https://www.ebc.com/forex/fed-holds-rates-july-2026-three-dissents"
+    }
+  },
+  "fed_news": [
+    {
+      "date": "2026-07-30",
+      "headline": "J.P.Morgan brings forward Fed rate hike call to December after July hold",
+      "summary": "J.P. Morgan now expects a quarter-point hike in December 2026 rather than in the second half of 2027, while flagging September hike risk remains live if inflation continues to run hot. Markets priced a 65.2% chance of a September hike, down from 81% before the July statement.",
+      "source": "Reuters via WHTC",
+      "url": "https://whtc.com/2026/07/30/j-p-morgan-brings-forward-fed-rate-hike-call-to-december-after-july-hold/"
+    },
+    {
+      "date": "2026-07-30",
+      "headline": "Dollar recovers as Fed holds rates, US strikes Iran",
+      "summary": "The dollar steadied after the Fed's hold decision and a US strike on Iran-linked targets added to geopolitical risk premium in markets. Fed funds futures imply a 42.6% probability of a hold at the September meeting, compared with 24% before the July decision.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/asia-pacific/dollar-steadies-fed-holds-rates-us-strikes-iran-2026-07-30/"
+    },
+    {
+      "date": "2026-07-30",
+      "headline": "The most hawkish split in a decade: the Fed holds steady with three dissents",
+      "summary": "The FOMC held the target range at 3.50%-3.75% on a 9-3 vote, the most divided vote in over a decade, with three regional presidents dissenting in favor of an immediate 25bp hike. Odds of a September hike stood near 70% pre-decision on CME FedWatch.",
+      "source": "Futu News",
+      "url": "https://news.futunn.com/en/post/76795972/the-most-hawkish-split-in-a-decade-the-fed-holds"
+    },
+    {
+      "date": "2026-07-29",
+      "headline": "Federal Reserve holds interest rates steady at July FOMC meeting",
+      "summary": "The Fed held its target range at 3.50%-3.75% for a fifth consecutive meeting, in a 9-3 vote with three dissents favoring a hike. Chair Kevin Warsh held a press conference at 2:30pm ET. No meeting is scheduled in August; the next meeting is September 15-16, 2026.",
+      "source": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
+    },
+    {
+      "date": "2026-07-29",
+      "headline": "What a divided Fed means for investors",
+      "summary": "Following the hawkish hold, Fed funds futures suggested a more than 57% likelihood of a quarter-point hike at the September meeting, per CME's FedWatch tool. About 53% of Kalshi traders predicted a hike versus 43% for another hold.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/29/fed-meeting-interest-rates-warsh-stocks-bonds.html"
+    },
+    {
+      "date": "2026-07-30",
+      "headline": "Fed's hawkish hold and global market reactions",
+      "summary": "Treasury yields jumped after the decision, with the 30-year approaching its highest level since 2007 near 5.10%, and futures pricing roughly a 76% chance of a September rate increase.",
+      "source": "TrustScoreFX",
+      "url": "https://www.trustscorefx.com/market-watch/10495/"
+    }
+  ]
+}

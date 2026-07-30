@@ -1,6 +1,6 @@
 {
   "note": "Static snapshot of published Reuters economist poll results and market-implied odds context. Refreshed periodically by the maintainer (not live-fetched at runtime) because no free real-time API exists for Reuters/FactSet consensus data. Each entry cites its source article.",
-  "last_curated": "2026-07-27",
+  "last_curated": "2026-07-30",
   "snapshots": [
     {
       "poll_date": "2026-03-26",
@@ -78,6 +78,28 @@
       "kalshi_hike_odds_pct_sept": 48,
       "factset_consensus": "No hike priced this year; 50bp cut expected in 2027",
       "url": "https://www.cnbc.com/2026/07/23/fed-interest-rate-odds-oil-jobless-claims.html"
+    },
+    {
+      "as_of": "2026-07-29",
+      "meeting_july_result": "Hold, 9-3 vote, target range unchanged at 3.50%-3.75%; three dissents favored a 25bp hike (most divided vote in over a decade)",
+      "meeting": "2026-09-16",
+      "hike_odds_pct": 57,
+      "url": "https://www.cnbc.com/2026/07/29/fed-meeting-interest-rates-warsh-stocks-bonds.html"
+    },
+    {
+      "as_of": "2026-07-30",
+      "meeting": "2026-09-16",
+      "hike_odds_pct_range_low": 42.6,
+      "hike_odds_pct_range_high": 81.0,
+      "note": "Post-decision estimates diverge widely by source/timing: Reuters/CME implied hold 42.6% (hike ~57.4%); Investing.com CME futures hold 42.9%/hike 57.1%; Southeast AgNet CME reading hike 81%; J.P.Morgan/Reuters CME reading hike 65.2% (down from 81% pre-decision). J.P.Morgan's own economist call shifted to a December 2026 hike.",
+      "year_end_at_least_one_hike_pct": 80,
+      "urls": [
+        "https://www.reuters.com/world/asia-pacific/dollar-steadies-fed-holds-rates-us-strikes-iran-2026-07-30/",
+        "https://uk.investing.com/central-banks/fed-rate-monitor",
+        "https://southeastagnet.com/2026/07/30/cme-fedwatch-signals-high-odds-september-rate-hike/",
+        "https://whtc.com/2026/07/30/j-p-morgan-brings-forward-fed-rate-hike-call-to-december-after-july-hold/",
+        "https://www.ebc.com/forex/fed-holds-rates-july-2026-three-dissents"
+      ]
     }
   ]
 }
