@@ -1,15 +1,19 @@
 {
-  "as_of": "2026-07-30T10:47:00Z",
+  "as_of": "2026-07-30T13:15:15Z",
   "generated_by": "fed-monitor daily refresh",
   "fed_funds": {
-    "target_range_low": 3.50,
+    "target_range_low": 3.5,
     "target_range_high": 3.75,
     "effective_rate": 3.75,
     "effective_rate_date": "2026-06-17",
     "last_decision_date": "2026-07-29",
     "last_decision": "Hold",
     "vote": "9-3",
-    "dissents": ["Beth M. Hammack (favored 25bp hike)", "Neel Kashkari (favored 25bp hike)", "Lorie K. Logan (favored 25bp hike)"],
+    "dissents": [
+      "Beth M. Hammack (favored 25bp hike)",
+      "Neel Kashkari (favored 25bp hike)",
+      "Lorie K. Logan (favored 25bp hike)"
+    ],
     "consecutive_holds": 5,
     "iorb_rate": 3.65,
     "primary_credit_rate": 3.75,
@@ -19,27 +23,103 @@
     "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
   },
   "treasury_yields": [
-    { "label": "13-Week Bill", "maturity": "13W", "yield_pct": 3.66, "change": -0.10, "change_pct": -2.71, "as_of": "2026-07-29", "ticker": "^IRX" },
-    { "label": "5-Year Note", "maturity": "5Y", "yield_pct": 4.35, "change": -0.01, "change_pct": -0.21, "as_of": "2026-07-29", "ticker": "^FVX" },
-    { "label": "10-Year Note", "maturity": "10Y", "yield_pct": 4.62, "change": 0.02, "change_pct": 0.39, "as_of": "2026-07-29", "ticker": "^TNX" },
-    { "label": "30-Year Bond", "maturity": "30Y", "yield_pct": 5.14, "change": 0.05, "change_pct": 0.92, "as_of": "2026-07-29", "ticker": "^TYX" }
+    {
+      "label": "13-Week Bill",
+      "maturity": "13W",
+      "yield_pct": 3.658,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "as_of": "2026-07-30",
+      "ticker": "^IRX"
+    },
+    {
+      "label": "5-Year Note",
+      "maturity": "5Y",
+      "yield_pct": 4.393,
+      "change": 0.041,
+      "change_pct": 0.9421,
+      "as_of": "2026-07-30",
+      "ticker": "^FVX"
+    },
+    {
+      "label": "10-Year Note",
+      "maturity": "10Y",
+      "yield_pct": 4.672,
+      "change": 0.051,
+      "change_pct": 1.10366,
+      "as_of": "2026-07-30",
+      "ticker": "^TNX"
+    },
+    {
+      "label": "30-Year Bond",
+      "maturity": "30Y",
+      "yield_pct": 5.213,
+      "change": 0.071,
+      "change_pct": 1.38079,
+      "as_of": "2026-07-30",
+      "ticker": "^TYX"
+    }
   ],
   "treasury_source": "Perplexity Finance (Yahoo Finance indices)",
   "inflation": {
-    "cpi_yoy": { "value_pct": 3.5, "prev_pct": 4.2, "as_of": "2026-06-30" },
-    "core_cpi_yoy": { "value_pct": 2.6, "prev_pct": 2.9, "as_of": "2026-06-30" },
-    "cpi_mom": { "value_pct": -0.4, "prev_pct": 0.5, "as_of": "2026-06-30" },
-    "pce_yoy": { "value_pct": 4.1, "prev_pct": 3.8, "as_of": "2026-05-31" },
-    "core_pce_yoy": { "value_pct": 3.4, "prev_pct": 3.3, "as_of": "2026-05-31" },
-    "pce_mom": { "value_pct": 0.4, "prev_pct": 0.4, "as_of": "2026-05-31" },
+    "cpi_yoy": {
+      "value_pct": 2.6,
+      "prev_pct": 2.9,
+      "as_of": "2026-06-30"
+    },
+    "core_cpi_yoy": {
+      "value_pct": 2.6,
+      "prev_pct": 2.9,
+      "as_of": "2026-06-30"
+    },
+    "cpi_mom": {
+      "value_pct": -0.4,
+      "prev_pct": 0.5,
+      "as_of": "2026-06-30"
+    },
+    "pce_yoy": {
+      "value_pct": 3.4,
+      "prev_pct": 3.3,
+      "as_of": "2026-05-31"
+    },
+    "core_pce_yoy": {
+      "value_pct": 3.4,
+      "prev_pct": 3.3,
+      "as_of": "2026-05-31"
+    },
+    "pce_mom": {
+      "value_pct": 0.4,
+      "prev_pct": 0.4,
+      "as_of": "2026-05-31"
+    },
     "fed_target_pct": 2.0,
-    "unemployment_rate": { "value_pct": 4.2, "prev_pct": 4.3, "as_of": "2026-06-30" },
+    "unemployment_rate": {
+      "value_pct": 1.14,
+      "prev_pct": 1.17,
+      "as_of": "2026-06-30"
+    },
     "source": "U.S. Bureau of Labor Statistics / U.S. Bureau of Economic Analysis",
     "source_url": "https://www.bls.gov"
   },
   "oil": {
-    "wti": { "price_usd": 83.66, "change": -0.80, "change_pct": -0.95, "day_low": 83.23, "day_high": 85.93, "as_of": "2026-07-30", "ticker": "CLUSD" },
-    "brent": { "price_usd": 87.33, "change": -0.88, "change_pct": -1.00, "day_low": 86.82, "day_high": 89.50, "as_of": "2026-07-30", "ticker": "BZUSD" },
+    "wti": {
+      "price_usd": 83.1,
+      "change": -1.36,
+      "change_pct": -1.61023,
+      "day_low": 83.02,
+      "day_high": 85.93,
+      "as_of": "2026-07-30",
+      "ticker": "CLUSD"
+    },
+    "brent": {
+      "price_usd": 86.44,
+      "change": -1.77,
+      "change_pct": -2.00658,
+      "day_low": 86.31,
+      "day_high": 89.5,
+      "as_of": "2026-07-30",
+      "ticker": "BZUSD"
+    },
     "context": "Prices remain elevated on Middle East supply concerns tied to ongoing Iran-related tensions.",
     "source": "Perplexity Finance market data"
   },
@@ -48,20 +128,59 @@
       "date_range": "2026-09-15 to 2026-09-16",
       "decision_date": "2026-09-16",
       "market_implied_odds": [
-        { "as_of": "2026-07-30", "hold_pct": 42.6, "hike_pct": 57.4, "source": "Reuters / CME FedWatch", "source_url": "https://www.reuters.com/world/asia-pacific/dollar-steadies-fed-holds-rates-us-strikes-iran-2026-07-30/" },
-        { "as_of": "2026-07-30", "hold_pct": 42.9, "hike_25bp_pct": 46.6, "hike_50bp_plus_pct": 10.6, "source": "Investing.com Fed Rate Monitor (CME futures)", "source_url": "https://uk.investing.com/central-banks/fed-rate-monitor" },
-        { "as_of": "2026-07-30", "hold_pct": 19.0, "hike_pct": 81.0, "cut_pct": 0.0, "source": "CME FedWatch via Southeast AgNet", "source_url": "https://southeastagnet.com/2026/07/30/cme-fedwatch-signals-high-odds-september-rate-hike/" },
-        { "as_of": "2026-07-30", "hike_pct": 65.2, "note": "down from 81% before the July policy statement", "source": "CME FedWatch via Reuters/J.P.Morgan note", "source_url": "https://whtc.com/2026/07/30/j-p-morgan-brings-forward-fed-rate-hike-call-to-december-after-july-hold/" },
-        { "as_of": "2026-07-29", "hike_pct": 57.0, "source": "CNBC / CME FedWatch", "source_url": "https://www.cnbc.com/2026/07/29/fed-meeting-interest-rates-warsh-stocks-bonds.html" }
+        {
+          "as_of": "2026-07-30",
+          "hold_pct": 37.9,
+          "hike_25bp_pct": 62.1,
+          "source": "Investing.com Fed Rate Monitor (CME futures)",
+          "source_url": "https://uk.investing.com/central-banks/fed-rate-monitor"
+        },
+        {
+          "as_of": "2026-07-30",
+          "hold_pct": 42.6,
+          "hike_pct": 57.4,
+          "source": "Reuters / CME FedWatch",
+          "source_url": "https://www.reuters.com/world/asia-pacific/dollar-steadies-fed-holds-rates-us-strikes-iran-2026-07-30/"
+        },
+        {
+          "as_of": "2026-07-30",
+          "hold_pct": 19.0,
+          "hike_pct": 81.0,
+          "cut_pct": 0.0,
+          "source": "CME FedWatch via Southeast AgNet",
+          "source_url": "https://southeastagnet.com/2026/07/30/cme-fedwatch-signals-high-odds-september-rate-hike/"
+        },
+        {
+          "as_of": "2026-07-30",
+          "hike_pct": 65.2,
+          "note": "down from 81% before the July policy statement",
+          "source": "CME FedWatch via Reuters/J.P.Morgan note",
+          "source_url": "https://whtc.com/2026/07/30/j-p-morgan-brings-forward-fed-rate-hike-call-to-december-after-july-hold/"
+        },
+        {
+          "as_of": "2026-07-29",
+          "hike_pct": 57.0,
+          "source": "CNBC / CME FedWatch",
+          "source_url": "https://www.cnbc.com/2026/07/29/fed-meeting-interest-rates-warsh-stocks-bonds.html"
+        }
       ],
       "consensus_note": "Market-implied odds are volatile post-decision, ranging roughly 55-80% probability of a 25bp hike depending on source/timing. J.P. Morgan now expects the next hike in December 2026 rather than September, while flagging September hike risk remains live if inflation stays hot.",
       "economist_forecast": "FactSet consensus (as of 2026-07-23): no hike priced in for 2026; a 50bp cut is expected in 2027.",
       "economist_forecast_source_url": "https://www.cnbc.com/2026/07/23/fed-interest-rate-odds-oil-jobless-claims.html"
     },
     "upcoming_calendar": [
-      { "date_range": "2026-09-15 to 2026-09-16", "status": "upcoming" },
-      { "date_range": "2026-10-27 to 2026-10-28", "status": "upcoming" },
-      { "date_range": "2026-12-08 to 2026-12-09", "status": "upcoming" }
+      {
+        "date_range": "2026-09-15 to 2026-09-16",
+        "status": "upcoming"
+      },
+      {
+        "date_range": "2026-10-27 to 2026-10-28",
+        "status": "upcoming"
+      },
+      {
+        "date_range": "2026-12-08 to 2026-12-09",
+        "status": "upcoming"
+      }
     ],
     "calendar_source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
     "year_end_odds": {
