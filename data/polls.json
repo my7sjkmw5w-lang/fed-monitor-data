@@ -1,6 +1,6 @@
 {
   "note": "Static snapshot of published Reuters economist poll results and market-implied odds context. Refreshed periodically by the maintainer (not live-fetched at runtime) because no free real-time API exists for Reuters/FactSet consensus data. Each entry cites its source article.",
-  "last_curated": "2026-07-30",
+  "last_curated": "2026-08-02",
   "snapshots": [
     {
       "poll_date": "2026-03-26",
@@ -100,6 +100,14 @@
         "https://whtc.com/2026/07/30/j-p-morgan-brings-forward-fed-rate-hike-call-to-december-after-july-hold/",
         "https://www.ebc.com/forex/fed-holds-rates-july-2026-three-dissents"
       ]
+    },
+    {
+      "as_of": "2026-08-01",
+      "meeting": "2026-09-16",
+      "hike_odds_pct": 67,
+      "hold_odds_pct": 33,
+      "source": "Reuters / CME FedWatch",
+      "url": "https://www.reuters.com/business/finance/treasury-selloff-signals-need-bolster-feds-inflation-credibility-musalem-tells-2026-08-01/"
     }
   ]
 }
