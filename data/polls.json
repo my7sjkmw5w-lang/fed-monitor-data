@@ -1,6 +1,6 @@
 {
   "note": "Static snapshot of published Reuters economist poll results and market-implied odds context. Refreshed periodically by the maintainer (not live-fetched at runtime) because no free real-time API exists for Reuters/FactSet consensus data. Each entry cites its source article.",
-  "last_curated": "2026-08-04",
+  "last_curated": "2026-08-05",
   "snapshots": [
     {
       "poll_date": "2026-03-26",
@@ -124,6 +124,14 @@
       "hold_odds_pct": 35,
       "source": "Reuters / CME FedWatch",
       "url": "http://rmb.reuters.com/rmd/rss/item/tag:reuters.com,2026:newsml_KBN3TV00W?channel=FBi345"
+    },
+    {
+      "as_of": "2026-08-05",
+      "meeting": "2026-09-16",
+      "hike_odds_pct": 58.4,
+      "hold_odds_pct": 41.6,
+      "source": "Reuters / CME FedWatch",
+      "url": "https://www.reuters.com/business/wall-st-futures-edge-up-mideast-deal-hopes-healthcare-focus-2026-08-05/"
     }
   ]
 }
