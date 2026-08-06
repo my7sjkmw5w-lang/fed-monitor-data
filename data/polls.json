@@ -1,6 +1,6 @@
 {
   "note": "Static snapshot of published Reuters economist poll results and market-implied odds context. Refreshed periodically by the maintainer (not live-fetched at runtime) because no free real-time API exists for Reuters/FactSet consensus data. Each entry cites its source article.",
-  "last_curated": "2026-08-05",
+  "last_curated": "2026-08-06",
   "snapshots": [
     {
       "poll_date": "2026-03-26",
@@ -132,6 +132,22 @@
       "hold_odds_pct": 41.6,
       "source": "Reuters / CME FedWatch",
       "url": "https://www.reuters.com/business/wall-st-futures-edge-up-mideast-deal-hopes-healthcare-focus-2026-08-05/"
+    },
+    {
+      "as_of": "2026-08-06",
+      "meeting": "2026-09-16",
+      "hike_odds_pct": 54.0,
+      "hold_odds_pct": 46.0,
+      "source": "Reuters / CME FedWatch",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-06/"
+    },
+    {
+      "as_of": "2026-08-05",
+      "meeting": "2026-09-16",
+      "hike_odds_pct": 55.1,
+      "hold_odds_pct": 44.9,
+      "source": "Investing.com Fed Rate Monitor (CME futures)",
+      "url": "https://www.investing.com/central-banks/fed-rate-monitor"
     }
   ]
 }
