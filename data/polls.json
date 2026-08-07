@@ -1,6 +1,6 @@
 {
   "note": "Static snapshot of published Reuters economist poll results and market-implied odds context. Refreshed periodically by the maintainer (not live-fetched at runtime) because no free real-time API exists for Reuters/FactSet consensus data. Each entry cites its source article.",
-  "last_curated": "2026-08-06",
+  "last_curated": "2026-08-07",
   "snapshots": [
     {
       "poll_date": "2026-03-26",
@@ -146,6 +146,23 @@
       "meeting": "2026-09-16",
       "hike_odds_pct": 55.1,
       "hold_odds_pct": 44.9,
+      "source": "Investing.com Fed Rate Monitor (CME futures)",
+      "url": "https://www.investing.com/central-banks/fed-rate-monitor"
+    },
+    {
+      "as_of": "2026-08-07",
+      "meeting": "2026-09-16",
+      "hike_odds_pct": 43.9,
+      "hold_odds_pct": 60.4,
+      "source": "Reuters / LSEG rate futures",
+      "url": "http://rmb.reuters.com/rmd/rss/item/tag:reuters.com,2026:newsml_KBN3TY1C1?channel=frL012"
+    },
+    {
+      "as_of": "2026-08-07",
+      "meeting": "2026-09-16",
+      "hike_odds_pct": 64.3,
+      "hold_odds_pct": 35.7,
+      "hike_25bp_pct": 49.6,
       "source": "Investing.com Fed Rate Monitor (CME futures)",
       "url": "https://www.investing.com/central-banks/fed-rate-monitor"
     }
