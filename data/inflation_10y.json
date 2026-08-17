@@ -4,7 +4,7 @@
   "source": "U.S. Bureau of Labor Statistics",
   "source_url": "https://www.bls.gov/cpi/",
   "fetched_via": "Perplexity Finance macro history tool",
-  "last_updated": "2026-07-30",
+  "last_updated": "2026-08-17",
   "data": [
     {
       "date": "2016-03-31",
@@ -620,6 +620,11 @@
       "date": "2026-06-30",
       "cpi_yoy": 3.5,
       "core_cpi_yoy": 2.6
+    },
+    {
+      "date": "2026-07-31",
+      "cpi_yoy": 3.4,
+      "core_cpi_yoy": 2.5
     }
   ]
 }

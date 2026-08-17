@@ -1,6 +1,6 @@
 {
   "note": "Static snapshot of published Reuters economist poll results and market-implied odds context. Refreshed periodically by the maintainer (not live-fetched at runtime) because no free real-time API exists for Reuters/FactSet consensus data. Each entry cites its source article.",
-  "last_curated": "2026-08-10",
+  "last_curated": "2026-08-17",
   "snapshots": [
     {
       "poll_date": "2026-03-26",
@@ -193,6 +193,30 @@
       "hold_odds_pct": 56.0,
       "source": "Reuters / CME FedWatch",
       "url": "https://www.reuters.com/world/india/fading-fed-hike-bets-rbi-backstop-blunts-oil-pressure-rupee-2026-08-10/"
+    },
+    {
+      "as_of": "2026-08-15",
+      "meeting": "2026-09-16",
+      "hike_odds_pct": 32.3,
+      "hold_odds_pct": 67.7,
+      "source": "Investing.com Fed Rate Monitor (CME futures)",
+      "year_end_at_least_one_hike_pct": 67.2,
+      "year_end_at_least_one_cut_pct": 0.0,
+      "year_end_distribution": {
+        "3.50-3.75": 32.8,
+        "3.75-4.00": 45.1,
+        "4.00-4.25": 19.5,
+        "4.25-4.50": 2.6
+      },
+      "url": "https://www.investing.com/central-banks/fed-rate-monitor"
+    },
+    {
+      "as_of": "2026-08-17",
+      "meeting": "2026-09-16",
+      "hike_odds_pct": 30.6,
+      "hold_odds_pct": 69.4,
+      "source": "CME FedWatch via Growbeansprout",
+      "url": "https://growbeansprout.com/tools/fedwatch"
     }
   ]
 }
