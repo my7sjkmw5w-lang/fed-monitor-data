@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-24T12:39:07Z",
+  "as_of": "2026-08-24T12:38:46Z",
   "generated_by": "fed-monitor daily refresh",
   "fed_funds": {
     "target_range_low": 3.5,
@@ -29,7 +29,7 @@
       "label": "13-Week Bill",
       "maturity": "13W",
       "yield_pct": 3.71,
-      "change": 0.0,
+      "change": -0.0,
       "change_pct": -0.08,
       "as_of": "2026-08-24",
       "ticker": "^IRX",
