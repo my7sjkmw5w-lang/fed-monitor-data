@@ -1,6 +1,6 @@
 {
   "note": "Static snapshot of published Reuters economist poll results and market-implied odds context. Refreshed periodically by the maintainer (not live-fetched at runtime) because no free real-time API exists for Reuters/FactSet consensus data. Each entry cites its source article.",
-  "last_curated": "2026-08-24",
+  "last_curated": "2026-08-27",
   "snapshots": [
     {
       "poll_date": "2026-03-26",
@@ -60,6 +60,14 @@
         "target_pct": 2.0
       },
       "url": "https://www.reuters.com/world/fed-hold-rates-this-year-despite-high-inflation-economists-cite-high-chances-2026-07-21/"
+    },
+    {
+      "as_of": "2026-08-25",
+      "meeting": "2026-09-16",
+      "hike_odds_pct": 41.4,
+      "hold_odds_pct": 58.6,
+      "source": "CME FedWatch via Growbeansprout",
+      "url": "https://growbeansprout.com/tools/fedwatch"
     }
   ],
   "market_implied_reference": [
