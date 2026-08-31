@@ -1,6 +1,6 @@
 {
   "note": "Static snapshot of published Reuters economist poll results and market-implied odds context. Refreshed periodically by the maintainer (not live-fetched at runtime) because no free real-time API exists for Reuters/FactSet consensus data. Each entry cites its source article.",
-  "last_curated": "2026-08-27",
+  "last_curated": "2026-08-31",
   "snapshots": [
     {
       "poll_date": "2026-03-26",
@@ -68,6 +68,26 @@
       "hold_odds_pct": 58.6,
       "source": "CME FedWatch via Growbeansprout",
       "url": "https://growbeansprout.com/tools/fedwatch"
+    },
+    {
+      "as_of": "2026-08-31",
+      "meeting": "2026-09-16",
+      "hike_odds_pct": 60.4,
+      "hold_odds_pct": 39.6,
+      "year_end_at_least_one_hike_pct": 88.5,
+      "year_end_at_least_one_cut_pct": 0.0,
+      "year_end_distribution": {
+        "3.50-3.75": 11.4,
+        "3.75-4.00": 39.0,
+        "4.00-4.25": 39.5,
+        "4.25-4.50": 10.0
+      },
+      "source": "CME FedWatch via CNBC and Investing.com",
+      "url": "https://www.cnbc.com/2026/08/31/jackson-hole-fed-chair-kevin-warsh-hawkish-rate-hikes-analysts.html",
+      "urls": [
+        "https://www.cnbc.com/2026/08/31/jackson-hole-fed-chair-kevin-warsh-hawkish-rate-hikes-analysts.html",
+        "https://www.investing.com/central-banks/fed-rate-monitor"
+      ]
     }
   ],
   "market_implied_reference": [
