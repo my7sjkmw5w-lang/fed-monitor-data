@@ -1,6 +1,6 @@
 {
   "note": "Static snapshot of published Reuters economist poll results and market-implied odds context. Refreshed periodically by the maintainer (not live-fetched at runtime) because no free real-time API exists for Reuters/FactSet consensus data. Each entry cites its source article.",
-  "last_curated": "2026-09-07",
+  "last_curated": "2026-09-10",
   "snapshots": [
     {
       "poll_date": "2026-03-26",
@@ -115,6 +115,25 @@
       "urls": [
         "https://www.reuters.com/business/nasdaq-sp-500-futures-climb-ahead-key-jobs-report-2026-09-04/",
         "https://stockwirex.com/analysis/fed-rate-hike-odds-data-september-2026/"
+      ]
+    },
+    {
+      "as_of": "2026-09-09",
+      "meeting": "2026-09-16",
+      "hike_odds_pct": 62.1,
+      "hold_odds_pct": 37.9,
+      "year_end_at_least_one_hike_pct": 87.7,
+      "year_end_at_least_one_cut_pct": 0.0,
+      "year_end_distribution": {
+        "3.50-3.75": 12.3,
+        "3.75-4.00": 39.7,
+        "4.00-4.25": 38.1,
+        "4.25-4.50": 10.0
+      },
+      "source": "Investing.com Fed Rate Monitor (CME futures)",
+      "url": "https://www.investing.com/central-banks/fed-rate-monitor",
+      "urls": [
+        "https://www.investing.com/central-banks/fed-rate-monitor"
       ]
     }
   ],

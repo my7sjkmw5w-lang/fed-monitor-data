@@ -158,6 +158,15 @@
       "decision_date": "2026-09-16",
       "market_implied_odds": [
         {
+          "as_of": "2026-08-31",
+          "hold_pct": 39.6,
+          "hike_pct": 60.4,
+          "hike_25bp_pct": 60.4,
+          "cut_pct": 0.0,
+          "source": "CNBC / CME FedWatch",
+          "source_url": "https://www.cnbc.com/2026/08/31/jackson-hole-fed-chair-kevin-warsh-hawkish-rate-hikes-analysts.html"
+        },
+        {
           "as_of": "2026-09-03",
           "hold_pct": 29.8,
           "hike_pct": 70.2,
