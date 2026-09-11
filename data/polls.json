@@ -1,6 +1,6 @@
 {
   "note": "Static snapshot of published Reuters economist poll results and market-implied odds context. Refreshed periodically by the maintainer (not live-fetched at runtime) because no free real-time API exists for Reuters/FactSet consensus data. Each entry cites its source article.",
-  "last_curated": "2026-09-10",
+  "last_curated": "2026-09-11",
   "snapshots": [
     {
       "poll_date": "2026-03-26",
@@ -135,6 +135,14 @@
       "urls": [
         "https://www.investing.com/central-banks/fed-rate-monitor"
       ]
+    },
+    {
+      "as_of": "2026-09-11",
+      "meeting": "2026-09-16",
+      "hike_odds_pct": 86.0,
+      "hold_odds_pct": 14.0,
+      "source": "CME FedWatch (via CNBC)",
+      "url": "https://www.cnbc.com/2026/09/11/august-consumer-inflation-cements-fed-rate-hike-odds-what-wall-street-is-saying.html"
     }
   ],
   "market_implied_reference": [
