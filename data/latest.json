@@ -511,5 +511,32 @@
       "source_url": "https://www.reuters.com/business/warshs-words-may-matter-more-than-anticipated-fed-rate-hike-2026-09-16/"
     }
   ],
-  "treasury_source_url": "https://finance.yahoo.com/"
+  "treasury_source_url": "https://finance.yahoo.com/",
+  "consumer_sentiment": {
+    "headline": {
+      "value": 47.8,
+      "prev": 51.7,
+      "as_of": "2026-09-30",
+      "label": "Consumer Sentiment Index",
+      "source": "University of Michigan",
+      "source_url": "http://www.sca.isr.umich.edu/"
+    },
+    "current_conditions": {
+      "value": 50.9,
+      "prev": 51.9,
+      "as_of": "2026-09-30",
+      "label": "Current Economic Conditions",
+      "source": "University of Michigan",
+      "source_url": "http://www.sca.isr.umich.edu/"
+    },
+    "expectations": {
+      "value": 45.8,
+      "prev": 51.5,
+      "as_of": "2026-09-30",
+      "label": "Consumer Expectations",
+      "source": "University of Michigan",
+      "source_url": "http://www.sca.isr.umich.edu/"
+    },
+    "index_base_note": "Index base: 1966 Q1 = 100 (NSA)"
+  }
 }
