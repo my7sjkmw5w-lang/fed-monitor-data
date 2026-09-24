@@ -1,6 +1,6 @@
 {
   "note": "Static snapshot of published Reuters economist poll results and market-implied odds context. Refreshed periodically by the maintainer (not live-fetched at runtime) because no free real-time API exists for Reuters/FactSet consensus data. Each entry cites its source article.",
-  "last_curated": "2026-09-21",
+  "last_curated": "2026-09-24",
   "snapshots": [
     {
       "poll_date": "2026-03-26",
@@ -207,6 +207,16 @@
       "hold_odds_pct": 42.6,
       "source": "CME FedWatch via Growbeansprout",
       "url": "https://growbeansprout.com/tools/fedwatch"
+    },
+    {
+      "as_of": "2026-09-24",
+      "meeting": "2026-10-28",
+      "hike_odds_pct": 77.5,
+      "hold_odds_pct": 22.5,
+      "year_end_at_least_one_hike_pct": 89.9,
+      "year_end_at_least_one_cut_pct": 0.0,
+      "source": "CME FedWatch via CNBC",
+      "url": "https://www.cnbc.com/amp/2026/09/24/feds-williams-another-rate-hike-by-year-end.html"
     }
   ],
   "market_implied_reference": [
