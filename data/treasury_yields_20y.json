@@ -4,7 +4,7 @@
   "source": "Perplexity Finance (Yahoo Finance indices)",
   "source_url": "https://finance.yahoo.com/quote/%5ETNX/",
   "fetched_via": "finance_ohlcv_histories",
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-10-01",
   "data": [
     {
       "date": "2006-10-31",
@@ -1685,6 +1685,13 @@
       "note_5y": 5.04,
       "note_10y": 5.22,
       "bond_30y": 5.53
+    },
+    {
+      "date": "2026-10-01",
+      "bill_13w": 4.01,
+      "note_5y": 5.06,
+      "note_10y": 5.29,
+      "bond_30y": 5.65
     }
   ]
 }

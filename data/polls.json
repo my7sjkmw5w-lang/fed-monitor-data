@@ -1,6 +1,6 @@
 {
   "note": "Static snapshot of published Reuters economist poll results and market-implied odds context. Refreshed periodically by the maintainer (not live-fetched at runtime) because no free real-time API exists for Reuters/FactSet consensus data. Each entry cites its source article.",
-  "last_curated": "2026-09-24",
+  "last_curated": "2026-10-01",
   "snapshots": [
     {
       "poll_date": "2026-03-26",
@@ -217,6 +217,26 @@
       "year_end_at_least_one_cut_pct": 0.0,
       "source": "CME FedWatch via CNBC",
       "url": "https://www.cnbc.com/amp/2026/09/24/feds-williams-another-rate-hike-by-year-end.html"
+    },
+    {
+      "as_of": "2026-10-01",
+      "meeting": "2026-10-28",
+      "hike_odds_pct": 38.0,
+      "hold_odds_pct": 62.0,
+      "year_end_at_least_one_hike_pct": 90.0,
+      "year_end_at_least_one_cut_pct": 0.0,
+      "source": "Reuters via Investing.com / CME FedWatch; CME FedWatch via Phemex",
+      "url": "https://www.investing.com/news/economy-news/goldman-sachs-pushes-fed-rate-hike-forecast-to-december-4926222",
+      "urls": [
+        "https://www.investing.com/news/economy-news/goldman-sachs-pushes-fed-rate-hike-forecast-to-december-4926222",
+        "https://www.cnbc.com/2026/09/30/gold-on-track-for-monthly-decline-as-investors-await-us-inflation-data.html",
+        "https://phemex.com/news/article/cme-fedwatch-529-chance-fed-holds-rates-in-october-after-pce-data-98336"
+      ],
+      "year_end_distribution": {
+        "3.75-4.00": 10.0,
+        "4.00-4.25": 51.8,
+        "4.25-4.50": 38.2
+      }
     }
   ],
   "market_implied_reference": [
