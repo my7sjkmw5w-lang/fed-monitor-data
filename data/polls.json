@@ -1,6 +1,6 @@
 {
   "note": "Static snapshot of published Reuters economist poll results and market-implied odds context. Refreshed periodically by the maintainer (not live-fetched at runtime) because no free real-time API exists for Reuters/FactSet consensus data. Each entry cites its source article.",
-  "last_curated": "2026-10-01",
+  "last_curated": "2026-10-05",
   "snapshots": [
     {
       "poll_date": "2026-03-26",
@@ -237,6 +237,19 @@
         "4.00-4.25": 51.8,
         "4.25-4.50": 38.2
       }
+    },
+    {
+      "as_of": "2026-10-02",
+      "meeting": "2026-10-28",
+      "hike_odds_pct": 17.0,
+      "hold_odds_pct": 83.0,
+      "december_hike_pct_min": 75.0,
+      "source": "CME FedWatch via CNBC; CME FedWatch via Reuters (~13%)",
+      "url": "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html",
+      "urls": [
+        "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html",
+        "https://www.reuters.com/business/us-job-growth-slows-sharply-september-unemployment-rate-rises-42-2026-10-02/"
+      ]
     }
   ],
   "market_implied_reference": [

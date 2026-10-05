@@ -154,6 +154,24 @@
       "decision_date": "2026-10-28",
       "market_implied_odds": [
         {
+          "as_of": "2026-09-24",
+          "hold_pct": 22.5,
+          "hike_pct": 77.5,
+          "hike_25bp_pct": 77.5,
+          "cut_pct": 0.0,
+          "source": "CME FedWatch via CNBC",
+          "source_url": "https://www.cnbc.com/amp/2026/09/24/feds-williams-another-rate-hike-by-year-end.html"
+        },
+        {
+          "as_of": "2026-09-28",
+          "hold_pct": 22.5,
+          "hike_pct": 77.5,
+          "hike_25bp_pct": 77.5,
+          "cut_pct": 0.0,
+          "source": "CME FedWatch via CNBC",
+          "source_url": "https://www.cnbc.com/2026/09/24/feds-williams-another-rate-hike-by-year-end.html"
+        },
+        {
           "as_of": "2026-10-01",
           "hold_pct": 62.0,
           "hike_pct": 38.0,
