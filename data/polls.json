@@ -1,6 +1,6 @@
 {
   "note": "Static snapshot of published Reuters economist poll results and market-implied odds context. Refreshed periodically by the maintainer (not live-fetched at runtime) because no free real-time API exists for Reuters/FactSet consensus data. Each entry cites its source article.",
-  "last_curated": "2026-10-05",
+  "last_curated": "2026-10-08",
   "snapshots": [
     {
       "poll_date": "2026-03-26",
@@ -249,6 +249,25 @@
       "urls": [
         "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html",
         "https://www.reuters.com/business/us-job-growth-slows-sharply-september-unemployment-rate-rises-42-2026-10-02/"
+      ]
+    },
+    {
+      "as_of": "2026-10-07",
+      "meeting": "2026-10-28",
+      "hike_odds_pct": 19.4,
+      "hold_odds_pct": 80.6,
+      "year_end_at_least_one_hike_pct": 85.2,
+      "year_end_at_least_one_cut_pct": 0.0,
+      "year_end_distribution": {
+        "4.00-4.25": 67.5,
+        "4.25-4.50": 17.7
+      },
+      "source": "CME FedWatch via 24/7 Wall St.; Investing.com Fed Rate Monitor (CME futures)",
+      "url": "https://247wallst.com/investing/2026/10/07/october-rate-hike-odds-just-fell-from-51-to-19-in-one-week/",
+      "urls": [
+        "https://247wallst.com/investing/2026/10/07/october-rate-hike-odds-just-fell-from-51-to-19-in-one-week/",
+        "https://www.investing.com/analysis/fed-october-ratehike-odds-slide-below-22-ahead-of-minutes-200689107",
+        "https://www.tradingview.com/news/benzinga:ce180175c094b:0-jim-cramer-says-interest-rates-can-fall-too-as-october-fed-hike-odds-fall-to-21-6-here-s-what-traders-are-betting-on/"
       ]
     }
   ],
