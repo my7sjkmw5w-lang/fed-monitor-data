@@ -1,11 +1,11 @@
 {
-  "as_of": "2026-10-08T11:01:25Z",
+  "as_of": "2026-10-12T11:07:20Z",
   "generated_by": "fed-monitor daily refresh",
   "fed_funds": {
     "target_range_low": 3.75,
     "target_range_high": 4.0,
     "effective_rate": 3.88,
-    "effective_rate_date": "2026-10-05",
+    "effective_rate_date": "2026-10-08",
     "last_decision_date": "2026-09-16",
     "last_decision": "Raise",
     "vote": "12-0",
@@ -24,10 +24,10 @@
     {
       "label": "13-Week Bill",
       "maturity": "13W",
-      "yield_pct": 4.04,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "as_of": "2026-10-07",
+      "yield_pct": 4.06,
+      "change": 0.01,
+      "change_pct": 0.35,
+      "as_of": "2026-10-09",
       "ticker": "^IRX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5EIRX/"
@@ -36,9 +36,9 @@
       "label": "5-Year Note",
       "maturity": "5Y",
       "yield_pct": 5.02,
-      "change": -0.01,
-      "change_pct": -0.14,
-      "as_of": "2026-10-07",
+      "change": 0.03,
+      "change_pct": 0.6,
+      "as_of": "2026-10-09",
       "ticker": "^FVX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5EFVX/"
@@ -46,10 +46,10 @@
     {
       "label": "10-Year Note",
       "maturity": "10Y",
-      "yield_pct": 5.28,
+      "yield_pct": 5.24,
       "change": 0.01,
-      "change_pct": 0.15,
-      "as_of": "2026-10-07",
+      "change_pct": 0.25,
+      "as_of": "2026-10-09",
       "ticker": "^TNX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5ETNX/"
@@ -57,10 +57,10 @@
     {
       "label": "30-Year Bond",
       "maturity": "30Y",
-      "yield_pct": 5.66,
-      "change": 0.02,
-      "change_pct": 0.35,
-      "as_of": "2026-10-07",
+      "yield_pct": 5.6,
+      "change": -0.01,
+      "change_pct": -0.11,
+      "as_of": "2026-10-09",
       "ticker": "^TYX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5ETYX/"
@@ -123,28 +123,28 @@
   },
   "oil": {
     "wti": {
-      "price_usd": 92.6,
-      "change": 4.32,
-      "change_pct": 4.89,
-      "day_low": 88.78,
-      "day_high": 92.83,
-      "as_of": "2026-10-08",
+      "price_usd": 93.07,
+      "change": 1.22,
+      "change_pct": 1.33,
+      "day_low": 89.65,
+      "day_high": 93.12,
+      "as_of": "2026-10-12",
       "ticker": "CLUSD",
       "source": "Perplexity Finance market data",
       "source_url": "https://finance.yahoo.com/quote/CLUSD/"
     },
     "brent": {
-      "price_usd": 105.21,
-      "change": 5.01,
-      "change_pct": 5.0,
-      "day_low": 100.75,
-      "day_high": 105.42,
-      "as_of": "2026-10-08",
+      "price_usd": 106.12,
+      "change": 1.4,
+      "change_pct": 1.34,
+      "day_low": 102.39,
+      "day_high": 106.17,
+      "as_of": "2026-10-12",
       "ticker": "BZUSD",
       "source": "Perplexity Finance market data",
       "source_url": "https://finance.yahoo.com/quote/BZUSD/"
     },
-    "context": "Crude jumped about 5% in the latest quote snapshot (WTI $92.60, Brent $105.21) amid renewed Middle East attacks and a storm threat to U.S. Gulf production.",
+    "context": "Crude extended gains in the latest quote snapshot, with WTI at $93.07 and Brent at $106.12, both up about 1.3%.",
     "source": "Perplexity Finance market data",
     "source_url": "https://finance.yahoo.com/"
   },
@@ -153,35 +153,6 @@
       "date_range": "2026-10-27 to 2026-10-28",
       "decision_date": "2026-10-28",
       "market_implied_odds": [
-        {
-          "as_of": "2026-10-01",
-          "hold_pct": 62.0,
-          "hike_pct": 38.0,
-          "hike_25bp_pct": 38.0,
-          "cut_pct": 0.0,
-          "source": "Reuters via Investing.com / CME FedWatch",
-          "source_url": "https://www.investing.com/news/economy-news/goldman-sachs-pushes-fed-rate-hike-forecast-to-december-4926222"
-        },
-        {
-          "as_of": "2026-10-02",
-          "hold_pct": 87.0,
-          "hike_pct": 13.0,
-          "hike_25bp_pct": 13.0,
-          "cut_pct": 0.0,
-          "source": "CME FedWatch via Reuters",
-          "source_url": "https://www.reuters.com/business/us-job-growth-slows-sharply-september-unemployment-rate-rises-42-2026-10-02/",
-          "note": "After the September jobs report; hold implied as remainder"
-        },
-        {
-          "as_of": "2026-10-02",
-          "hold_pct": 83.0,
-          "hike_pct": 17.0,
-          "hike_25bp_pct": 17.0,
-          "cut_pct": 0.0,
-          "source": "CME FedWatch via CNBC",
-          "source_url": "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html",
-          "note": "Hold implied as remainder"
-        },
         {
           "as_of": "2026-10-06",
           "hold_pct": 78.4,
@@ -199,11 +170,21 @@
           "cut_pct": 0.0,
           "source": "CME FedWatch via 24/7 Wall St.",
           "source_url": "https://247wallst.com/investing/2026/10/07/october-rate-hike-odds-just-fell-from-51-to-19-in-one-week/"
+        },
+        {
+          "as_of": "2026-10-09",
+          "hold_pct": 82.3,
+          "hike_pct": 17.7,
+          "hike_25bp_pct": 17.7,
+          "cut_pct": 0.0,
+          "source": "CME FedWatch via Asianet Newsable",
+          "source_url": "https://newsable.asianetnews.com/markets/two-more-fed-rate-hikes-likely-after-governor-waller-s-hawkish-remarks-goldman-sachs-articleshow-3rc7cfr",
+          "note": "Hold implied as remainder"
         }
       ],
-      "consensus_note": "CME FedWatch put the odds of a 25bp hike at the October 27-28 meeting at about 19% (81% hold) on October 7, after 21.6% on October 6 and roughly 13-17% right after the weak September jobs report. A December hike remains the market's base case: an October 7 CME-derived snapshot implied about 85% odds the target range will be higher after the December 9 meeting.",
-      "economist_forecast": "Most major brokerages, including Goldman Sachs, expect the next 25bp hike in December rather than October. The September FOMC minutes (released Oct 7) showed most participants judged another increase would be appropriate by year-end.",
-      "economist_forecast_source_url": "https://economics.td.com/us-fomc-minutes",
+      "consensus_note": "CME FedWatch priced about a 17.7% chance of a 25bp hike at the October 27-28 meeting (about 82% hold) as of October 9, little changed from 19-22% earlier in the week. Markets put roughly 84% odds on a hike by the December 9 meeting. The September CPI report on Wednesday, October 14 is the main risk to October pricing.",
+      "economist_forecast": "After Governor Waller said on October 8 that he anticipates additional hikes (not necessarily at consecutive meetings), Goldman Sachs' Jan Hatzius said the Fed could deliver two hikes rather than one by December.",
+      "economist_forecast_source_url": "https://newsable.asianetnews.com/markets/two-more-fed-rate-hikes-likely-after-governor-waller-s-hawkish-remarks-goldman-sachs-articleshow-3rc7cfr",
       "odds_sources": [
         {
           "source": "Reuters / CME FedWatch",
@@ -260,6 +241,10 @@
         {
           "source": "Investing.com Fed Rate Monitor (CME futures)",
           "source_url": "https://www.investing.com/analysis/fed-october-ratehike-odds-slide-below-22-ahead-of-minutes-200689107"
+        },
+        {
+          "source": "CME FedWatch via Asianet Newsable",
+          "source_url": "https://newsable.asianetnews.com/markets/two-more-fed-rate-hikes-likely-after-governor-waller-s-hawkish-remarks-goldman-sachs-articleshow-3rc7cfr"
         }
       ],
       "year_end_odds": {
@@ -283,15 +268,31 @@
     ],
     "calendar_source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
     "year_end_odds": {
-      "at_least_one_hike_pct": 85.2,
+      "at_least_one_hike_pct": 83.7,
       "at_least_one_cut_pct": 0.0,
-      "as_of": "2026-10-07",
-      "note": "CME-derived Investing.com Fed Rate Monitor snapshot (4:45 a.m. EDT Oct 7): 67.5% odds of 4.00-4.25% and 17.7% odds of 4.25-4.50% after the December 9 meeting, implying ~85% odds of at least one more hike; no cut priced.",
-      "source": "Investing.com Fed Rate Monitor (CME futures)",
-      "source_url": "https://www.investing.com/analysis/fed-october-ratehike-odds-slide-below-22-ahead-of-minutes-200689107"
+      "as_of": "2026-10-09",
+      "note": "CME FedWatch showed an 83.7% probability of a hike of up to 50bp by the December meeting; no cut priced.",
+      "source": "CME FedWatch via Asianet Newsable",
+      "source_url": "https://newsable.asianetnews.com/markets/two-more-fed-rate-hikes-likely-after-governor-waller-s-hawkish-remarks-goldman-sachs-articleshow-3rc7cfr"
     }
   },
   "fed_news": [
+    {
+      "date": "2026-10-09",
+      "headline": "Consumer sentiment falls to five-month low in early October",
+      "summary": "The University of Michigan's preliminary October sentiment index fell to 46.3 from 48.1, below expectations of 47.6, as the current-conditions gauge dropped to 44.7 amid high prices.",
+      "source": "Trading Economics / University of Michigan",
+      "url": "https://tradingeconomics.com/united-states/consumer-confidence/news/590907",
+      "source_url": "https://tradingeconomics.com/united-states/consumer-confidence/news/590907"
+    },
+    {
+      "date": "2026-10-08",
+      "headline": "Waller anticipates additional rate hikes, with flexibility on timing",
+      "summary": "Governor Waller said that if data come in as expected he anticipates additional hikes to return inflation to 2% in a timelier way; the hikes need not come at consecutive meetings but should be in place within an acceptable period.",
+      "source": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm",
+      "source_url": "https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm"
+    },
     {
       "date": "2026-10-07",
       "headline": "September FOMC minutes: most officials see another hike as likely by year-end",
@@ -634,26 +635,26 @@
   "treasury_source_url": "https://finance.yahoo.com/",
   "consumer_sentiment": {
     "headline": {
-      "value": 48.1,
-      "prev": 51.7,
-      "as_of": "2026-09-30",
-      "label": "Consumer Sentiment Index",
+      "value": 46.3,
+      "prev": 48.1,
+      "as_of": "2026-10-31",
+      "label": "Consumer Sentiment Index (Oct preliminary)",
       "source": "University of Michigan",
       "source_url": "http://www.sca.isr.umich.edu/"
     },
     "current_conditions": {
-      "value": 50.9,
-      "prev": 51.9,
-      "as_of": "2026-09-30",
-      "label": "Current Economic Conditions",
+      "value": 44.7,
+      "prev": 50.9,
+      "as_of": "2026-10-31",
+      "label": "Current Economic Conditions (Oct preliminary)",
       "source": "University of Michigan",
       "source_url": "http://www.sca.isr.umich.edu/"
     },
     "expectations": {
-      "value": 46.3,
-      "prev": 51.5,
-      "as_of": "2026-09-30",
-      "label": "Consumer Expectations",
+      "value": 47.3,
+      "prev": 46.3,
+      "as_of": "2026-10-31",
+      "label": "Consumer Expectations (Oct preliminary)",
       "source": "University of Michigan",
       "source_url": "http://www.sca.isr.umich.edu/"
     },

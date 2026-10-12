@@ -1,6 +1,6 @@
 {
   "note": "Static snapshot of published Reuters economist poll results and market-implied odds context. Refreshed periodically by the maintainer (not live-fetched at runtime) because no free real-time API exists for Reuters/FactSet consensus data. Each entry cites its source article.",
-  "last_curated": "2026-10-08",
+  "last_curated": "2026-10-12",
   "snapshots": [
     {
       "poll_date": "2026-03-26",
@@ -268,6 +268,20 @@
         "https://247wallst.com/investing/2026/10/07/october-rate-hike-odds-just-fell-from-51-to-19-in-one-week/",
         "https://www.investing.com/analysis/fed-october-ratehike-odds-slide-below-22-ahead-of-minutes-200689107",
         "https://www.tradingview.com/news/benzinga:ce180175c094b:0-jim-cramer-says-interest-rates-can-fall-too-as-october-fed-hike-odds-fall-to-21-6-here-s-what-traders-are-betting-on/"
+      ]
+    },
+    {
+      "as_of": "2026-10-09",
+      "meeting": "2026-10-28",
+      "hike_odds_pct": 17.7,
+      "hold_odds_pct": 82.3,
+      "year_end_at_least_one_hike_pct": 83.7,
+      "year_end_at_least_one_cut_pct": 0.0,
+      "source": "CME FedWatch via Asianet Newsable",
+      "url": "https://newsable.asianetnews.com/markets/two-more-fed-rate-hikes-likely-after-governor-waller-s-hawkish-remarks-goldman-sachs-articleshow-3rc7cfr",
+      "urls": [
+        "https://newsable.asianetnews.com/markets/two-more-fed-rate-hikes-likely-after-governor-waller-s-hawkish-remarks-goldman-sachs-articleshow-3rc7cfr",
+        "https://admiralmarkets.com/analytics/traders-blog/fed-rate-decision-october-2026"
       ]
     }
   ],
