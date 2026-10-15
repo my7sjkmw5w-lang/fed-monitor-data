@@ -1,6 +1,6 @@
 {
   "note": "Static snapshot of published Reuters economist poll results and market-implied odds context. Refreshed periodically by the maintainer (not live-fetched at runtime) because no free real-time API exists for Reuters/FactSet consensus data. Each entry cites its source article.",
-  "last_curated": "2026-10-12",
+  "last_curated": "2026-10-15",
   "snapshots": [
     {
       "poll_date": "2026-03-26",
@@ -282,6 +282,19 @@
       "urls": [
         "https://newsable.asianetnews.com/markets/two-more-fed-rate-hikes-likely-after-governor-waller-s-hawkish-remarks-goldman-sachs-articleshow-3rc7cfr",
         "https://admiralmarkets.com/analytics/traders-blog/fed-rate-decision-october-2026"
+      ]
+    },
+    {
+      "as_of": "2026-10-14",
+      "meeting": "2026-10-28",
+      "hike_odds_pct": 53.7,
+      "hold_odds_pct": 46.3,
+      "year_end_at_least_one_hike_pct": 95.0,
+      "year_end_at_least_one_cut_pct": 0.0,
+      "source": "CME FedWatch via CNBC",
+      "url": "https://www.cnbc.com/2026/10/14/fed-may-now-have-to-hike-twice-or-increase-by-a-half-point-in-december-traders-bet.html",
+      "urls": [
+        "https://www.cnbc.com/2026/10/14/fed-may-now-have-to-hike-twice-or-increase-by-a-half-point-in-december-traders-bet.html"
       ]
     }
   ],
