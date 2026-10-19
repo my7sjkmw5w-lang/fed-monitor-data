@@ -1,11 +1,11 @@
 {
-  "as_of": "2026-10-15T11:07:15Z",
+  "as_of": "2026-10-19T11:07:16Z",
   "generated_by": "fed-monitor daily refresh",
   "fed_funds": {
     "target_range_low": 3.75,
     "target_range_high": 4.0,
     "effective_rate": 3.88,
-    "effective_rate_date": "2026-10-09",
+    "effective_rate_date": "2026-10-15",
     "last_decision_date": "2026-09-16",
     "last_decision": "Raise",
     "vote": "12-0",
@@ -24,10 +24,10 @@
     {
       "label": "13-Week Bill",
       "maturity": "13W",
-      "yield_pct": 4.09,
-      "change": 0.03,
-      "change_pct": 0.69,
-      "as_of": "2026-10-14",
+      "yield_pct": 4.07,
+      "change": -0.02,
+      "change_pct": -0.44,
+      "as_of": "2026-10-16",
       "ticker": "^IRX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5EIRX/"
@@ -35,10 +35,10 @@
     {
       "label": "5-Year Note",
       "maturity": "5Y",
-      "yield_pct": 4.99,
-      "change": -0.02,
-      "change_pct": -0.3,
-      "as_of": "2026-10-14",
+      "yield_pct": 4.9,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "as_of": "2026-10-16",
       "ticker": "^FVX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5EFVX/"
@@ -46,10 +46,10 @@
     {
       "label": "10-Year Note",
       "maturity": "10Y",
-      "yield_pct": 5.19,
-      "change": -0.03,
-      "change_pct": -0.52,
-      "as_of": "2026-10-14",
+      "yield_pct": 5.1,
+      "change": 0.01,
+      "change_pct": 0.18,
+      "as_of": "2026-10-16",
       "ticker": "^TNX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5ETNX/"
@@ -57,10 +57,10 @@
     {
       "label": "30-Year Bond",
       "maturity": "30Y",
-      "yield_pct": 5.53,
-      "change": -0.04,
-      "change_pct": -0.68,
-      "as_of": "2026-10-14",
+      "yield_pct": 5.44,
+      "change": 0.01,
+      "change_pct": 0.13,
+      "as_of": "2026-10-16",
       "ticker": "^TYX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5ETYX/"
@@ -123,28 +123,28 @@
   },
   "oil": {
     "wti": {
-      "price_usd": 94.97,
-      "change": -0.12,
-      "change_pct": -0.13,
-      "day_low": 93.59,
-      "day_high": 95.38,
-      "as_of": "2026-10-15",
+      "price_usd": 98.6,
+      "change": -0.42,
+      "change_pct": -0.42,
+      "day_low": 96.74,
+      "day_high": 98.89,
+      "as_of": "2026-10-19",
       "ticker": "CLUSD",
       "source": "Perplexity Finance market data",
       "source_url": "https://finance.yahoo.com/quote/CLUSD/"
     },
     "brent": {
-      "price_usd": 104.51,
-      "change": -1.55,
-      "change_pct": -1.46,
-      "day_low": 103.42,
-      "day_high": 106.01,
-      "as_of": "2026-10-15",
+      "price_usd": 108.95,
+      "change": -0.91,
+      "change_pct": -0.83,
+      "day_low": 106.83,
+      "day_high": 109.34,
+      "as_of": "2026-10-19",
       "ticker": "BZUSD",
       "source": "Perplexity Finance market data",
       "source_url": "https://finance.yahoo.com/quote/BZUSD/"
     },
-    "context": "Brent eased about 1.5% to $104.51 and WTI held near $95 in the latest quote snapshot; gasoline's 9.1% jump drove more than half of September's CPI increase.",
+    "context": "Crude eased slightly in the latest quote snapshot but remains near recent highs, with WTI at $98.60 and Brent at $108.95.",
     "source": "Perplexity Finance market data",
     "source_url": "https://finance.yahoo.com/"
   },
@@ -153,16 +153,6 @@
       "date_range": "2026-10-27 to 2026-10-28",
       "decision_date": "2026-10-28",
       "market_implied_odds": [
-        {
-          "as_of": "2026-10-09",
-          "hold_pct": 82.3,
-          "hike_pct": 17.7,
-          "hike_25bp_pct": 17.7,
-          "cut_pct": 0.0,
-          "source": "CME FedWatch via Asianet Newsable",
-          "source_url": "https://newsable.asianetnews.com/markets/two-more-fed-rate-hikes-likely-after-governor-waller-s-hawkish-remarks-goldman-sachs-articleshow-3rc7cfr",
-          "note": "Hold implied as remainder"
-        },
         {
           "as_of": "2026-10-13",
           "hold_pct": 77.9,
@@ -182,11 +172,31 @@
           "source": "CME FedWatch via CNBC",
           "source_url": "https://www.cnbc.com/2026/10/14/fed-may-now-have-to-hike-twice-or-increase-by-a-half-point-in-december-traders-bet.html",
           "note": "After September CPI; hold implied as remainder"
+        },
+        {
+          "as_of": "2026-10-15",
+          "hold_pct": 72.0,
+          "hike_pct": 28.0,
+          "hike_25bp_pct": 28.0,
+          "cut_pct": 0.0,
+          "source": "CME FedWatch via Axios",
+          "source_url": "https://www.axios.com/2026/10/16/warsh-federal-reserve-interest-rates",
+          "note": "Thursday afternoon; hold implied as remainder"
+        },
+        {
+          "as_of": "2026-10-16",
+          "hold_pct": 85.0,
+          "hike_pct": 15.0,
+          "hike_25bp_pct": 15.0,
+          "cut_pct": 0.0,
+          "source": "Fed funds futures via CNBC",
+          "source_url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html",
+          "note": "Friday morning after Warsh remarks; hold implied as remainder"
         }
       ],
-      "consensus_note": "The hotter-than-expected September CPI (3.7% headline, 2.6% core) pushed CME FedWatch odds of a 25bp hike at the October 27-28 meeting to 53.7% on October 14, up from 22.1% a day earlier. Markets now price a greater than 95% chance of at least one hike by year-end, including about 40% odds that rates end the year 50bp higher.",
-      "economist_forecast": "Many economists still expect the FOMC to wait until December, and Chicago Fed President Goolsbee called September inflation discouraging but favored waiting for more data; traders now see risk of two hikes or a 50bp move by December.",
-      "economist_forecast_source_url": "https://finance.yahoo.com/economy/policy/article/chicago-feds-goolsbee-calls-september-inflation-discouraging-but-favors-waiting-on-more-data-185843740.html",
+      "consensus_note": "October hike odds spiked to about 54% after the hot September CPI on October 14, then retreated to about 28% on October 15 and about 15% on October 16 after Chair Warsh declined to signal another move. The Fed is now in its pre-meeting blackout; markets still see a December hike as likely.",
+      "economist_forecast": "Goldman Sachs expects the Fed to wait until December; the September SEP median implied one more hike in 2026, leaving room for an October pause.",
+      "economist_forecast_source_url": "https://www.futurefinance.com/report/hike-odds-went-from-41-to-15-in-two-days",
       "odds_sources": [
         {
           "source": "Reuters / CME FedWatch",
@@ -251,6 +261,14 @@
         {
           "source": "CME FedWatch via CNBC",
           "source_url": "https://www.cnbc.com/2026/10/14/fed-may-now-have-to-hike-twice-or-increase-by-a-half-point-in-december-traders-bet.html"
+        },
+        {
+          "source": "CME FedWatch via Axios",
+          "source_url": "https://www.axios.com/2026/10/16/warsh-federal-reserve-interest-rates"
+        },
+        {
+          "source": "Fed funds futures via CNBC",
+          "source_url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html"
         }
       ],
       "year_end_odds": {
@@ -274,15 +292,31 @@
     ],
     "calendar_source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
     "year_end_odds": {
-      "at_least_one_hike_pct": 95.0,
+      "at_least_one_hike_pct": 93.0,
       "at_least_one_cut_pct": 0.0,
-      "as_of": "2026-10-14",
-      "note": "After September CPI, CME FedWatch showed a greater than 95% chance of at least one hike by year-end, including roughly 40% odds of a cumulative 50bp increase; no cut priced.",
-      "source": "CME FedWatch via CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/14/fed-may-now-have-to-hike-twice-or-increase-by-a-half-point-in-december-traders-bet.html"
+      "as_of": "2026-10-15",
+      "note": "On October 15, CME FedWatch priced a 93% chance of at least one hike by December (down from >95% on October 14); no cut priced.",
+      "source": "CME FedWatch via Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/economy/policy/article/how-meeting-6-times-a-year-instead-of-8-could-arm-the-fed-with-more-data-180528994.html"
     }
   },
   "fed_news": [
+    {
+      "date": "2026-10-16",
+      "headline": "Warsh declines to prejudge October as blackout begins",
+      "summary": "At the IMF/World Bank meetings, Chair Warsh said the world has broadly conformed to the Fed's September expectations and that he does not prejudge meetings, pushing October hike odds down to about 15%.",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/10/16/warsh-federal-reserve-interest-rates",
+      "source_url": "https://www.axios.com/2026/10/16/warsh-federal-reserve-interest-rates"
+    },
+    {
+      "date": "2026-10-16",
+      "headline": "Markets expect the Fed to hold in October",
+      "summary": "Futures assigned about a 15% probability of an October hike Friday morning, with the September projections leaving room for a pause in October and a hike in December.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html",
+      "source_url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html"
+    },
     {
       "date": "2026-10-14",
       "headline": "September CPI runs hot at 3.7%, core rises to 2.6%",
