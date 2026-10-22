@@ -1,11 +1,11 @@
 {
-  "as_of": "2026-10-19T11:07:16Z",
+  "as_of": "2026-10-22T11:06:59Z",
   "generated_by": "fed-monitor daily refresh",
   "fed_funds": {
     "target_range_low": 3.75,
     "target_range_high": 4.0,
     "effective_rate": 3.88,
-    "effective_rate_date": "2026-10-15",
+    "effective_rate_date": "2026-10-19",
     "last_decision_date": "2026-09-16",
     "last_decision": "Raise",
     "vote": "12-0",
@@ -24,10 +24,10 @@
     {
       "label": "13-Week Bill",
       "maturity": "13W",
-      "yield_pct": 4.07,
+      "yield_pct": 4.06,
       "change": -0.02,
-      "change_pct": -0.44,
-      "as_of": "2026-10-16",
+      "change_pct": -0.42,
+      "as_of": "2026-10-21",
       "ticker": "^IRX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5EIRX/"
@@ -35,10 +35,10 @@
     {
       "label": "5-Year Note",
       "maturity": "5Y",
-      "yield_pct": 4.9,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "as_of": "2026-10-16",
+      "yield_pct": 4.97,
+      "change": 0.04,
+      "change_pct": 0.75,
+      "as_of": "2026-10-21",
       "ticker": "^FVX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5EFVX/"
@@ -46,10 +46,10 @@
     {
       "label": "10-Year Note",
       "maturity": "10Y",
-      "yield_pct": 5.1,
-      "change": 0.01,
-      "change_pct": 0.18,
-      "as_of": "2026-10-16",
+      "yield_pct": 5.15,
+      "change": 0.03,
+      "change_pct": 0.55,
+      "as_of": "2026-10-21",
       "ticker": "^TNX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5ETNX/"
@@ -59,8 +59,8 @@
       "maturity": "30Y",
       "yield_pct": 5.44,
       "change": 0.01,
-      "change_pct": 0.13,
-      "as_of": "2026-10-16",
+      "change_pct": 0.24,
+      "as_of": "2026-10-21",
       "ticker": "^TYX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5ETYX/"
@@ -123,28 +123,28 @@
   },
   "oil": {
     "wti": {
-      "price_usd": 98.6,
-      "change": -0.42,
-      "change_pct": -0.42,
-      "day_low": 96.74,
-      "day_high": 98.89,
-      "as_of": "2026-10-19",
+      "price_usd": 99.05,
+      "change": 1.9,
+      "change_pct": 1.96,
+      "day_low": 97.75,
+      "day_high": 100.08,
+      "as_of": "2026-10-22",
       "ticker": "CLUSD",
       "source": "Perplexity Finance market data",
       "source_url": "https://finance.yahoo.com/quote/CLUSD/"
     },
     "brent": {
-      "price_usd": 108.95,
-      "change": -0.91,
-      "change_pct": -0.83,
-      "day_low": 106.83,
-      "day_high": 109.34,
-      "as_of": "2026-10-19",
+      "price_usd": 111.82,
+      "change": 3.0,
+      "change_pct": 2.76,
+      "day_low": 109.73,
+      "day_high": 112.67,
+      "as_of": "2026-10-22",
       "ticker": "BZUSD",
       "source": "Perplexity Finance market data",
       "source_url": "https://finance.yahoo.com/quote/BZUSD/"
     },
-    "context": "Crude eased slightly in the latest quote snapshot but remains near recent highs, with WTI at $98.60 and Brent at $108.95.",
+    "context": "Crude rallied in the latest quote snapshot, with WTI near $99 (briefly above $100) and Brent up 2.8% to $111.82.",
     "source": "Perplexity Finance market data",
     "source_url": "https://finance.yahoo.com/"
   },
@@ -153,26 +153,6 @@
       "date_range": "2026-10-27 to 2026-10-28",
       "decision_date": "2026-10-28",
       "market_implied_odds": [
-        {
-          "as_of": "2026-10-13",
-          "hold_pct": 77.9,
-          "hike_pct": 22.1,
-          "hike_25bp_pct": 22.1,
-          "cut_pct": 0.0,
-          "source": "CME FedWatch via CNBC",
-          "source_url": "https://www.cnbc.com/2026/10/14/fed-may-now-have-to-hike-twice-or-increase-by-a-half-point-in-december-traders-bet.html",
-          "note": "Pre-CPI reading (one day before Oct 14)"
-        },
-        {
-          "as_of": "2026-10-14",
-          "hold_pct": 46.3,
-          "hike_pct": 53.7,
-          "hike_25bp_pct": 53.7,
-          "cut_pct": 0.0,
-          "source": "CME FedWatch via CNBC",
-          "source_url": "https://www.cnbc.com/2026/10/14/fed-may-now-have-to-hike-twice-or-increase-by-a-half-point-in-december-traders-bet.html",
-          "note": "After September CPI; hold implied as remainder"
-        },
         {
           "as_of": "2026-10-15",
           "hold_pct": 72.0,
@@ -192,11 +172,29 @@
           "source": "Fed funds futures via CNBC",
           "source_url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html",
           "note": "Friday morning after Warsh remarks; hold implied as remainder"
+        },
+        {
+          "as_of": "2026-10-20",
+          "hold_pct": 80.5,
+          "hike_pct": 19.5,
+          "hike_25bp_pct": 19.5,
+          "cut_pct": 0.0,
+          "source": "Investing.com Fed Rate Monitor (CME futures)",
+          "source_url": "https://www.investing.com/analysis/october-hold-december-hike-economists-see-a-more-restrictive-fed-path-200689932"
+        },
+        {
+          "as_of": "2026-10-21",
+          "hold_pct": 86.2,
+          "hike_pct": 13.8,
+          "hike_25bp_pct": 13.8,
+          "cut_pct": 0.0,
+          "source": "Investing.com Fed Rate Monitor (CME futures)",
+          "source_url": "https://www.investing.com/central-banks/fed-rate-monitor"
         }
       ],
-      "consensus_note": "October hike odds spiked to about 54% after the hot September CPI on October 14, then retreated to about 28% on October 15 and about 15% on October 16 after Chair Warsh declined to signal another move. The Fed is now in its pre-meeting blackout; markets still see a December hike as likely.",
-      "economist_forecast": "Goldman Sachs expects the Fed to wait until December; the September SEP median implied one more hike in 2026, leaving room for an October pause.",
-      "economist_forecast_source_url": "https://www.futurefinance.com/report/hike-odds-went-from-41-to-15-in-two-days",
+      "consensus_note": "With the Fed in its pre-meeting blackout, CME-futures-derived odds of a 25bp hike at the October 27-28 meeting eased to 13.8% (86.2% hold) on October 21, from 19.5% on October 20 and about 54% right after the September CPI. Prediction markets (Kalshi/Polymarket) priced a hike near 12% on October 21\u201322.",
+      "economist_forecast": "In a Reuters poll taken October 16-20, 94 of 100 economists expect a hold in October and all 100 expect a quarter-point hike in December; 38 of 92 see at least two more increases.",
+      "economist_forecast_source_url": "https://money.usnews.com/investing/news/articles/2026-10-20/fed-to-skip-october-but-raise-rates-again-in-december-nearly-all-economists-say-reuters-poll",
       "odds_sources": [
         {
           "source": "Reuters / CME FedWatch",
@@ -269,6 +267,10 @@
         {
           "source": "Fed funds futures via CNBC",
           "source_url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html"
+        },
+        {
+          "source": "Investing.com Fed Rate Monitor (CME futures)",
+          "source_url": "https://www.investing.com/analysis/october-hold-december-hike-economists-see-a-more-restrictive-fed-path-200689932"
         }
       ],
       "year_end_odds": {
@@ -301,6 +303,14 @@
     }
   },
   "fed_news": [
+    {
+      "date": "2026-10-20",
+      "headline": "Reuters poll: Fed to skip October, hike in December",
+      "summary": "94 of 100 economists polled October 16-20 expect the Fed to hold at 3.75%-4.00% this month, and all 100 expect a December hike, up from fewer than half in September's poll.",
+      "source": "Reuters via U.S. News",
+      "url": "https://money.usnews.com/investing/news/articles/2026-10-20/fed-to-skip-october-but-raise-rates-again-in-december-nearly-all-economists-say-reuters-poll",
+      "source_url": "https://money.usnews.com/investing/news/articles/2026-10-20/fed-to-skip-october-but-raise-rates-again-in-december-nearly-all-economists-say-reuters-poll"
+    },
     {
       "date": "2026-10-16",
       "headline": "Warsh declines to prejudge October as blackout begins",

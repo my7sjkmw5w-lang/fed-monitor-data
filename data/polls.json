@@ -1,6 +1,6 @@
 {
   "note": "Static snapshot of published Reuters economist poll results and market-implied odds context. Refreshed periodically by the maintainer (not live-fetched at runtime) because no free real-time API exists for Reuters/FactSet consensus data. Each entry cites its source article.",
-  "last_curated": "2026-10-19",
+  "last_curated": "2026-10-22",
   "snapshots": [
     {
       "poll_date": "2026-03-26",
@@ -310,6 +310,19 @@
         "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html",
         "https://www.axios.com/2026/10/16/warsh-federal-reserve-interest-rates",
         "https://finance.yahoo.com/economy/policy/article/how-meeting-6-times-a-year-instead-of-8-could-arm-the-fed-with-more-data-180528994.html"
+      ]
+    },
+    {
+      "as_of": "2026-10-21",
+      "meeting": "2026-10-28",
+      "hike_odds_pct": 13.8,
+      "hold_odds_pct": 86.2,
+      "source": "Investing.com Fed Rate Monitor (CME futures); Reuters economist poll Oct 16-20 (94/100 hold, 100/100 December hike)",
+      "url": "https://www.investing.com/central-banks/fed-rate-monitor",
+      "urls": [
+        "https://www.investing.com/central-banks/fed-rate-monitor",
+        "https://www.investing.com/analysis/october-hold-december-hike-economists-see-a-more-restrictive-fed-path-200689932",
+        "https://money.usnews.com/investing/news/articles/2026-10-20/fed-to-skip-october-but-raise-rates-again-in-december-nearly-all-economists-say-reuters-poll"
       ]
     }
   ],
