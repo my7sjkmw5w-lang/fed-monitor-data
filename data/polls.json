@@ -1,6 +1,6 @@
 {
   "note": "Static snapshot of published Reuters economist poll results and market-implied odds context. Refreshed periodically by the maintainer (not live-fetched at runtime) because no free real-time API exists for Reuters/FactSet consensus data. Each entry cites its source article.",
-  "last_curated": "2026-10-22",
+  "last_curated": "2026-10-26",
   "snapshots": [
     {
       "poll_date": "2026-03-26",
@@ -323,6 +323,21 @@
         "https://www.investing.com/central-banks/fed-rate-monitor",
         "https://www.investing.com/analysis/october-hold-december-hike-economists-see-a-more-restrictive-fed-path-200689932",
         "https://money.usnews.com/investing/news/articles/2026-10-20/fed-to-skip-october-but-raise-rates-again-in-december-nearly-all-economists-say-reuters-poll"
+      ]
+    },
+    {
+      "as_of": "2026-10-26",
+      "meeting": "2026-10-28",
+      "hike_odds_pct": 9.4,
+      "hold_odds_pct": 90.6,
+      "year_end_at_least_one_hike_pct": 78.0,
+      "year_end_at_least_one_cut_pct": 0.0,
+      "source": "CME FedWatch via BeInCrypto; ABF Journal (December ~78%)",
+      "url": "https://beincrypto.com/fed-week-bitcoin-dollar-options-expiry/",
+      "urls": [
+        "https://beincrypto.com/fed-week-bitcoin-dollar-options-expiry/",
+        "https://www.tradingview.com/news/binance_news:c4935c389094b:0-tradfi-news-markets-price-just-a-10-chance-of-a-fed-hike-next-week-betting-the-next-move-comes-in-december/",
+        "https://www.abfjournal.com/middle-market-debt-weekly-a-hawkish-fed-ai-driven-equity-rout-reprice-the-rate-backdrop/"
       ]
     }
   ],

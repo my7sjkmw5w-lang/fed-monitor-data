@@ -1,11 +1,11 @@
 {
-  "as_of": "2026-10-22T11:06:59Z",
+  "as_of": "2026-10-26T11:07:02Z",
   "generated_by": "fed-monitor daily refresh",
   "fed_funds": {
     "target_range_low": 3.75,
     "target_range_high": 4.0,
     "effective_rate": 3.88,
-    "effective_rate_date": "2026-10-19",
+    "effective_rate_date": "2026-10-22",
     "last_decision_date": "2026-09-16",
     "last_decision": "Raise",
     "vote": "12-0",
@@ -24,10 +24,10 @@
     {
       "label": "13-Week Bill",
       "maturity": "13W",
-      "yield_pct": 4.06,
-      "change": -0.02,
-      "change_pct": -0.42,
-      "as_of": "2026-10-21",
+      "yield_pct": 4.03,
+      "change": 0.01,
+      "change_pct": 0.25,
+      "as_of": "2026-10-23",
       "ticker": "^IRX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5EIRX/"
@@ -35,10 +35,10 @@
     {
       "label": "5-Year Note",
       "maturity": "5Y",
-      "yield_pct": 4.97,
+      "yield_pct": 4.8,
       "change": 0.04,
-      "change_pct": 0.75,
-      "as_of": "2026-10-21",
+      "change_pct": 0.78,
+      "as_of": "2026-10-23",
       "ticker": "^FVX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5EFVX/"
@@ -46,10 +46,10 @@
     {
       "label": "10-Year Note",
       "maturity": "10Y",
-      "yield_pct": 5.15,
-      "change": 0.03,
-      "change_pct": 0.55,
-      "as_of": "2026-10-21",
+      "yield_pct": 4.99,
+      "change": 0.04,
+      "change_pct": 0.71,
+      "as_of": "2026-10-23",
       "ticker": "^TNX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5ETNX/"
@@ -57,10 +57,10 @@
     {
       "label": "30-Year Bond",
       "maturity": "30Y",
-      "yield_pct": 5.44,
-      "change": 0.01,
-      "change_pct": 0.24,
-      "as_of": "2026-10-21",
+      "yield_pct": 5.32,
+      "change": 0.03,
+      "change_pct": 0.53,
+      "as_of": "2026-10-23",
       "ticker": "^TYX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5ETYX/"
@@ -123,28 +123,28 @@
   },
   "oil": {
     "wti": {
-      "price_usd": 103.27,
-      "change": 3.8,
-      "change_pct": 3.82,
-      "day_low": 98.84,
-      "day_high": 103.92,
-      "as_of": "2026-10-23",
+      "price_usd": 100.96,
+      "change": -2.31,
+      "change_pct": -2.24,
+      "day_low": 100.61,
+      "day_high": 102.45,
+      "as_of": "2026-10-26",
       "ticker": "CLUSD",
       "source": "Perplexity Finance market data",
       "source_url": "https://finance.yahoo.com/quote/CLUSD/"
     },
     "brent": {
-      "price_usd": 116.72,
-      "change": 3.55,
-      "change_pct": 3.14,
-      "day_low": 112.72,
-      "day_high": 117.41,
-      "as_of": "2026-10-23",
+      "price_usd": 114.8,
+      "change": -1.92,
+      "change_pct": -1.64,
+      "day_low": 114.0,
+      "day_high": 115.96,
+      "as_of": "2026-10-26",
       "ticker": "BZUSD",
       "source": "Perplexity Finance market data",
       "source_url": "https://finance.yahoo.com/quote/BZUSD/"
     },
-    "context": "Crude surged about 3\u20134% on Friday, Oct 23, with WTI closing above $103 and Brent at $116.72, the highest levels since 2022.",
+    "context": "Crude pulled back about 2% early Monday (WTI $100.96, Brent $114.80) after Friday's surge to the highest levels since 2022.",
     "source": "Perplexity Finance market data",
     "source_url": "https://finance.yahoo.com/"
   },
@@ -153,26 +153,6 @@
       "date_range": "2026-10-27 to 2026-10-28",
       "decision_date": "2026-10-28",
       "market_implied_odds": [
-        {
-          "as_of": "2026-10-15",
-          "hold_pct": 72.0,
-          "hike_pct": 28.0,
-          "hike_25bp_pct": 28.0,
-          "cut_pct": 0.0,
-          "source": "CME FedWatch via Axios",
-          "source_url": "https://www.axios.com/2026/10/16/warsh-federal-reserve-interest-rates",
-          "note": "Thursday afternoon; hold implied as remainder"
-        },
-        {
-          "as_of": "2026-10-16",
-          "hold_pct": 85.0,
-          "hike_pct": 15.0,
-          "hike_25bp_pct": 15.0,
-          "cut_pct": 0.0,
-          "source": "Fed funds futures via CNBC",
-          "source_url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html",
-          "note": "Friday morning after Warsh remarks; hold implied as remainder"
-        },
         {
           "as_of": "2026-10-20",
           "hold_pct": 80.5,
@@ -190,9 +170,27 @@
           "cut_pct": 0.0,
           "source": "Investing.com Fed Rate Monitor (CME futures)",
           "source_url": "https://www.investing.com/central-banks/fed-rate-monitor"
+        },
+        {
+          "as_of": "2026-10-25",
+          "hold_pct": 90.0,
+          "hike_pct": 10.0,
+          "hike_25bp_pct": 10.0,
+          "cut_pct": 0.0,
+          "source": "CME FedWatch via TradingView",
+          "source_url": "https://www.tradingview.com/news/binance_news:c4935c389094b:0-tradfi-news-markets-price-just-a-10-chance-of-a-fed-hike-next-week-betting-the-next-move-comes-in-december/"
+        },
+        {
+          "as_of": "2026-10-26",
+          "hold_pct": 90.6,
+          "hike_pct": 9.4,
+          "hike_25bp_pct": 9.4,
+          "cut_pct": 0.0,
+          "source": "CME FedWatch via BeInCrypto",
+          "source_url": "https://beincrypto.com/fed-week-bitcoin-dollar-options-expiry/"
         }
       ],
-      "consensus_note": "With the Fed in its pre-meeting blackout, CME-futures-derived odds of a 25bp hike at the October 27-28 meeting eased to 13.8% (86.2% hold) on October 21, from 19.5% on October 20 and about 54% right after the September CPI. Prediction markets (Kalshi/Polymarket) priced a hike near 12% on October 21\u201322.",
+      "consensus_note": "Heading into the October 27-28 meeting, CME FedWatch priced about a 9.4% chance of a 25bp hike (90.6% hold) on October 26, down from 13.8% on October 21 and about 54% right after the September CPI. Odds of a December hike eased to about 78%; investors will watch Wednesday's statement for hints about December.",
       "economist_forecast": "In a Reuters poll taken October 16-20, 94 of 100 economists expect a hold in October and all 100 expect a quarter-point hike in December; 38 of 92 see at least two more increases.",
       "economist_forecast_source_url": "https://money.usnews.com/investing/news/articles/2026-10-20/fed-to-skip-october-but-raise-rates-again-in-december-nearly-all-economists-say-reuters-poll",
       "odds_sources": [
@@ -271,6 +269,14 @@
         {
           "source": "Investing.com Fed Rate Monitor (CME futures)",
           "source_url": "https://www.investing.com/analysis/october-hold-december-hike-economists-see-a-more-restrictive-fed-path-200689932"
+        },
+        {
+          "source": "CME FedWatch via BeInCrypto",
+          "source_url": "https://beincrypto.com/fed-week-bitcoin-dollar-options-expiry/"
+        },
+        {
+          "source": "CME FedWatch via TradingView",
+          "source_url": "https://www.tradingview.com/news/binance_news:c4935c389094b:0-tradfi-news-markets-price-just-a-10-chance-of-a-fed-hike-next-week-betting-the-next-move-comes-in-december/"
         }
       ],
       "year_end_odds": {
@@ -294,15 +300,23 @@
     ],
     "calendar_source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
     "year_end_odds": {
-      "at_least_one_hike_pct": 93.0,
+      "at_least_one_hike_pct": 78.0,
       "at_least_one_cut_pct": 0.0,
-      "as_of": "2026-10-15",
-      "note": "On October 15, CME FedWatch priced a 93% chance of at least one hike by December (down from >95% on October 14); no cut priced.",
-      "source": "CME FedWatch via Yahoo Finance",
-      "source_url": "https://finance.yahoo.com/economy/policy/article/how-meeting-6-times-a-year-instead-of-8-could-arm-the-fed-with-more-data-180528994.html"
+      "as_of": "2026-10-26",
+      "note": "CME FedWatch odds of a December hike eased to about 78% from about 86% a week earlier; no cut priced.",
+      "source": "CME FedWatch via ABF Journal",
+      "source_url": "https://www.abfjournal.com/middle-market-debt-weekly-a-hawkish-fed-ai-driven-equity-rout-reprice-the-rate-backdrop/"
     }
   },
   "fed_news": [
+    {
+      "date": "2026-10-23",
+      "headline": "Final October sentiment revised up to 48.0, still near a record low",
+      "summary": "The University of Michigan's final October index was 48.0 (preliminary 46.3; September 48.1), the second-lowest final reading on record. Year-ahead inflation expectations rose to 4.7% and long-run expectations to 3.5%.",
+      "source": "University of Michigan; ABC News",
+      "url": "https://www.sca.isr.umich.edu/",
+      "source_url": "https://www.sca.isr.umich.edu/"
+    },
     {
       "date": "2026-10-20",
       "headline": "Reuters poll: Fed to skip October, hike in December",
@@ -709,28 +723,28 @@
   "treasury_source_url": "https://finance.yahoo.com/",
   "consumer_sentiment": {
     "headline": {
-      "value": 46.3,
+      "value": 48.0,
       "prev": 48.1,
       "as_of": "2026-10-31",
-      "label": "Consumer Sentiment Index (Oct preliminary)",
+      "label": "Consumer Sentiment Index (Oct final)",
       "source": "University of Michigan",
-      "source_url": "http://www.sca.isr.umich.edu/"
+      "source_url": "https://www.sca.isr.umich.edu/"
     },
     "current_conditions": {
-      "value": 44.7,
+      "value": 46.7,
       "prev": 50.9,
       "as_of": "2026-10-31",
-      "label": "Current Economic Conditions (Oct preliminary)",
+      "label": "Current Economic Conditions (Oct final)",
       "source": "University of Michigan",
-      "source_url": "http://www.sca.isr.umich.edu/"
+      "source_url": "https://www.sca.isr.umich.edu/"
     },
     "expectations": {
-      "value": 47.3,
+      "value": 48.8,
       "prev": 46.3,
       "as_of": "2026-10-31",
-      "label": "Consumer Expectations (Oct preliminary)",
+      "label": "Consumer Expectations (Oct final)",
       "source": "University of Michigan",
-      "source_url": "http://www.sca.isr.umich.edu/"
+      "source_url": "https://www.sca.isr.umich.edu/"
     },
     "index_base_note": "Index base: 1966 Q1 = 100 (NSA)"
   }

@@ -1,0 +1,771 @@
+{
+  "as_of": "2026-10-26T11:07:02Z",
+  "generated_by": "fed-monitor daily refresh",
+  "fed_funds": {
+    "target_range_low": 3.75,
+    "target_range_high": 4.0,
+    "effective_rate": 3.88,
+    "effective_rate_date": "2026-10-22",
+    "last_decision_date": "2026-09-16",
+    "last_decision": "Raise",
+    "vote": "12-0",
+    "dissents": [],
+    "consecutive_holds": 0,
+    "iorb_rate": 3.9,
+    "primary_credit_rate": 4.0,
+    "prime_rate_est": 7.0,
+    "chair": "Kevin Warsh",
+    "source": "Federal Reserve",
+    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+    "effective_rate_source": "Federal Reserve Bank of New York",
+    "effective_rate_source_url": "https://www.newyorkfed.org/markets/reference-rates/effr"
+  },
+  "treasury_yields": [
+    {
+      "label": "13-Week Bill",
+      "maturity": "13W",
+      "yield_pct": 4.03,
+      "change": 0.01,
+      "change_pct": 0.25,
+      "as_of": "2026-10-23",
+      "ticker": "^IRX",
+      "source": "Perplexity Finance (Yahoo Finance indices)",
+      "source_url": "https://finance.yahoo.com/quote/%5EIRX/"
+    },
+    {
+      "label": "5-Year Note",
+      "maturity": "5Y",
+      "yield_pct": 4.8,
+      "change": 0.04,
+      "change_pct": 0.78,
+      "as_of": "2026-10-23",
+      "ticker": "^FVX",
+      "source": "Perplexity Finance (Yahoo Finance indices)",
+      "source_url": "https://finance.yahoo.com/quote/%5EFVX/"
+    },
+    {
+      "label": "10-Year Note",
+      "maturity": "10Y",
+      "yield_pct": 4.99,
+      "change": 0.04,
+      "change_pct": 0.71,
+      "as_of": "2026-10-23",
+      "ticker": "^TNX",
+      "source": "Perplexity Finance (Yahoo Finance indices)",
+      "source_url": "https://finance.yahoo.com/quote/%5ETNX/"
+    },
+    {
+      "label": "30-Year Bond",
+      "maturity": "30Y",
+      "yield_pct": 5.32,
+      "change": 0.03,
+      "change_pct": 0.53,
+      "as_of": "2026-10-23",
+      "ticker": "^TYX",
+      "source": "Perplexity Finance (Yahoo Finance indices)",
+      "source_url": "https://finance.yahoo.com/quote/%5ETYX/"
+    }
+  ],
+  "treasury_source": "Perplexity Finance (Yahoo Finance indices)",
+  "inflation": {
+    "cpi_yoy": {
+      "value_pct": 3.7,
+      "prev_pct": 3.4,
+      "as_of": "2026-09-30",
+      "source": "U.S. Bureau of Labor Statistics",
+      "source_url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+    },
+    "core_cpi_yoy": {
+      "value_pct": 2.6,
+      "prev_pct": 2.4,
+      "as_of": "2026-09-30",
+      "source": "U.S. Bureau of Labor Statistics",
+      "source_url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+    },
+    "cpi_mom": {
+      "value_pct": 0.6,
+      "prev_pct": 0.4,
+      "as_of": "2026-09-30",
+      "source": "U.S. Bureau of Labor Statistics",
+      "source_url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+    },
+    "pce_yoy": {
+      "value_pct": 3.4,
+      "prev_pct": 3.4,
+      "as_of": "2026-08-31",
+      "source": "U.S. Bureau of Economic Analysis",
+      "source_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026"
+    },
+    "core_pce_yoy": {
+      "value_pct": 3.0,
+      "prev_pct": 3.0,
+      "as_of": "2026-08-31",
+      "source": "U.S. Bureau of Economic Analysis",
+      "source_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026"
+    },
+    "pce_mom": {
+      "value_pct": 0.3,
+      "prev_pct": 0.1,
+      "as_of": "2026-08-31",
+      "source": "U.S. Bureau of Economic Analysis",
+      "source_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026"
+    },
+    "fed_target_pct": 2.0,
+    "unemployment_rate": {
+      "value_pct": 4.2,
+      "prev_pct": 4.1,
+      "as_of": "2026-09-30",
+      "source": "U.S. Bureau of Labor Statistics",
+      "source_url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+    },
+    "source": "U.S. Bureau of Labor Statistics / U.S. Bureau of Economic Analysis",
+    "source_url": "https://www.bls.gov"
+  },
+  "oil": {
+    "wti": {
+      "price_usd": 100.96,
+      "change": -2.31,
+      "change_pct": -2.24,
+      "day_low": 100.61,
+      "day_high": 102.45,
+      "as_of": "2026-10-26",
+      "ticker": "CLUSD",
+      "source": "Perplexity Finance market data",
+      "source_url": "https://finance.yahoo.com/quote/CLUSD/"
+    },
+    "brent": {
+      "price_usd": 114.8,
+      "change": -1.92,
+      "change_pct": -1.64,
+      "day_low": 114.0,
+      "day_high": 115.96,
+      "as_of": "2026-10-26",
+      "ticker": "BZUSD",
+      "source": "Perplexity Finance market data",
+      "source_url": "https://finance.yahoo.com/quote/BZUSD/"
+    },
+    "context": "Crude pulled back about 2% early Monday (WTI $100.96, Brent $114.80) after Friday's surge to the highest levels since 2022.",
+    "source": "Perplexity Finance market data",
+    "source_url": "https://finance.yahoo.com/"
+  },
+  "fomc_meetings": {
+    "next_meeting": {
+      "date_range": "2026-10-27 to 2026-10-28",
+      "decision_date": "2026-10-28",
+      "market_implied_odds": [
+        {
+          "as_of": "2026-10-15",
+          "hold_pct": 72.0,
+          "hike_pct": 28.0,
+          "hike_25bp_pct": 28.0,
+          "cut_pct": 0.0,
+          "source": "CME FedWatch via Axios",
+          "source_url": "https://www.axios.com/2026/10/16/warsh-federal-reserve-interest-rates",
+          "note": "Thursday afternoon; hold implied as remainder"
+        },
+        {
+          "as_of": "2026-10-16",
+          "hold_pct": 85.0,
+          "hike_pct": 15.0,
+          "hike_25bp_pct": 15.0,
+          "cut_pct": 0.0,
+          "source": "Fed funds futures via CNBC",
+          "source_url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html",
+          "note": "Friday morning after Warsh remarks; hold implied as remainder"
+        },
+        {
+          "as_of": "2026-10-20",
+          "hold_pct": 80.5,
+          "hike_pct": 19.5,
+          "hike_25bp_pct": 19.5,
+          "cut_pct": 0.0,
+          "source": "Investing.com Fed Rate Monitor (CME futures)",
+          "source_url": "https://www.investing.com/analysis/october-hold-december-hike-economists-see-a-more-restrictive-fed-path-200689932"
+        },
+        {
+          "as_of": "2026-10-21",
+          "hold_pct": 86.2,
+          "hike_pct": 13.8,
+          "hike_25bp_pct": 13.8,
+          "cut_pct": 0.0,
+          "source": "Investing.com Fed Rate Monitor (CME futures)",
+          "source_url": "https://www.investing.com/central-banks/fed-rate-monitor"
+        },
+        {
+          "as_of": "2026-10-25",
+          "hold_pct": 90.0,
+          "hike_pct": 10.0,
+          "hike_25bp_pct": 10.0,
+          "cut_pct": 0.0,
+          "source": "CME FedWatch via TradingView",
+          "source_url": "https://www.tradingview.com/news/binance_news:c4935c389094b:0-tradfi-news-markets-price-just-a-10-chance-of-a-fed-hike-next-week-betting-the-next-move-comes-in-december/"
+        },
+        {
+          "as_of": "2026-10-26",
+          "hold_pct": 90.6,
+          "hike_pct": 9.4,
+          "hike_25bp_pct": 9.4,
+          "cut_pct": 0.0,
+          "source": "CME FedWatch via BeInCrypto",
+          "source_url": "https://beincrypto.com/fed-week-bitcoin-dollar-options-expiry/"
+        }
+      ],
+      "consensus_note": "Heading into the October 27-28 meeting, CME FedWatch priced about a 9.4% chance of a 25bp hike (90.6% hold) on October 26, down from 13.8% on October 21 and about 54% right after the September CPI. Odds of a December hike eased to about 78%; investors will watch Wednesday's statement for hints about December.",
+      "economist_forecast": "In a Reuters poll taken October 16-20, 94 of 100 economists expect a hold in October and all 100 expect a quarter-point hike in December; 38 of 92 see at least two more increases.",
+      "economist_forecast_source_url": "https://money.usnews.com/investing/news/articles/2026-10-20/fed-to-skip-october-but-raise-rates-again-in-december-nearly-all-economists-say-reuters-poll",
+      "odds_sources": [
+        {
+          "source": "Reuters / CME FedWatch",
+          "source_url": "https://www.reuters.com/business/nasdaq-sp-500-futures-climb-ahead-key-jobs-report-2026-09-04/"
+        },
+        {
+          "source": "Yahoo Finance / CME FedWatch",
+          "source_url": "https://finance.yahoo.com/markets/crypto/articles/fed-rate-hike-odds-hit-092724315.html"
+        },
+        {
+          "source": "Stockwirex / CME FedWatch",
+          "source_url": "https://stockwirex.com/analysis/fed-rate-hike-odds-data-september-2026/"
+        },
+        {
+          "source": "CNBC / CME FedWatch",
+          "source_url": "https://www.cnbc.com/2026/08/31/jackson-hole-fed-chair-kevin-warsh-hawkish-rate-hikes-analysts.html"
+        },
+        {
+          "source": "CME FedWatch via Growbeansprout",
+          "source_url": "https://growbeansprout.com/tools/fedwatch"
+        },
+        {
+          "source": "Investing.com Fed Rate Monitor (CME futures)",
+          "source_url": "https://www.investing.com/central-banks/fed-rate-monitor"
+        },
+        {
+          "source": "Reuters via Investing.com / CME FedWatch",
+          "source_url": "https://www.investing.com/news/economy-news/goldman-sachs-pushes-fed-rate-hike-forecast-to-december-4926222"
+        },
+        {
+          "source": "CME FedWatch via CNBC",
+          "source_url": "https://www.cnbc.com/2026/09/30/gold-on-track-for-monthly-decline-as-investors-await-us-inflation-data.html"
+        },
+        {
+          "source": "CME FedWatch via Phemex",
+          "source_url": "https://phemex.com/news/article/cme-fedwatch-529-chance-fed-holds-rates-in-october-after-pce-data-98336"
+        },
+        {
+          "source": "CME FedWatch via CNBC",
+          "source_url": "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html"
+        },
+        {
+          "source": "CME FedWatch via Reuters",
+          "source_url": "https://www.reuters.com/business/us-job-growth-slows-sharply-september-unemployment-rate-rises-42-2026-10-02/"
+        },
+        {
+          "source": "CME FedWatch via Benzinga",
+          "source_url": "https://www.tradingview.com/news/benzinga:ce180175c094b:0-jim-cramer-says-interest-rates-can-fall-too-as-october-fed-hike-odds-fall-to-21-6-here-s-what-traders-are-betting-on/"
+        },
+        {
+          "source": "CME FedWatch via 24/7 Wall St.",
+          "source_url": "https://247wallst.com/investing/2026/10/07/october-rate-hike-odds-just-fell-from-51-to-19-in-one-week/"
+        },
+        {
+          "source": "Investing.com Fed Rate Monitor (CME futures)",
+          "source_url": "https://www.investing.com/analysis/fed-october-ratehike-odds-slide-below-22-ahead-of-minutes-200689107"
+        },
+        {
+          "source": "CME FedWatch via Asianet Newsable",
+          "source_url": "https://newsable.asianetnews.com/markets/two-more-fed-rate-hikes-likely-after-governor-waller-s-hawkish-remarks-goldman-sachs-articleshow-3rc7cfr"
+        },
+        {
+          "source": "CME FedWatch via CNBC",
+          "source_url": "https://www.cnbc.com/2026/10/14/fed-may-now-have-to-hike-twice-or-increase-by-a-half-point-in-december-traders-bet.html"
+        },
+        {
+          "source": "CME FedWatch via Axios",
+          "source_url": "https://www.axios.com/2026/10/16/warsh-federal-reserve-interest-rates"
+        },
+        {
+          "source": "Fed funds futures via CNBC",
+          "source_url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html"
+        },
+        {
+          "source": "Investing.com Fed Rate Monitor (CME futures)",
+          "source_url": "https://www.investing.com/analysis/october-hold-december-hike-economists-see-a-more-restrictive-fed-path-200689932"
+        },
+        {
+          "source": "CME FedWatch via BeInCrypto",
+          "source_url": "https://beincrypto.com/fed-week-bitcoin-dollar-options-expiry/"
+        },
+        {
+          "source": "CME FedWatch via TradingView",
+          "source_url": "https://www.tradingview.com/news/binance_news:c4935c389094b:0-tradfi-news-markets-price-just-a-10-chance-of-a-fed-hike-next-week-betting-the-next-move-comes-in-december/"
+        }
+      ],
+      "year_end_odds": {
+        "at_least_one_hike_pct": 90.0,
+        "at_least_one_cut_pct": 0.0,
+        "as_of": "2026-10-01",
+        "note": "CNBC reported CME FedWatch pricing of a 90% probability of a December rate hike following the August PCE release; a cut by year-end was not priced in.",
+        "source": "CME FedWatch via CNBC",
+        "source_url": "https://www.cnbc.com/2026/09/30/gold-on-track-for-monthly-decline-as-investors-await-us-inflation-data.html"
+      }
+    },
+    "upcoming_calendar": [
+      {
+        "date_range": "2026-10-27 to 2026-10-28",
+        "status": "upcoming"
+      },
+      {
+        "date_range": "2026-12-08 to 2026-12-09",
+        "status": "upcoming"
+      }
+    ],
+    "calendar_source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "year_end_odds": {
+      "at_least_one_hike_pct": 78.0,
+      "at_least_one_cut_pct": 0.0,
+      "as_of": "2026-10-26",
+      "note": "CME FedWatch odds of a December hike eased to about 78% from about 86% a week earlier; no cut priced.",
+      "source": "CME FedWatch via ABF Journal",
+      "source_url": "https://www.abfjournal.com/middle-market-debt-weekly-a-hawkish-fed-ai-driven-equity-rout-reprice-the-rate-backdrop/"
+    }
+  },
+  "fed_news": [
+    {
+      "date": "2026-10-23",
+      "headline": "Final October sentiment revised up to 48.0, still near a record low",
+      "summary": "The University of Michigan's final October index was 48.0 (preliminary 46.3; September 48.1), the second-lowest final reading on record. Year-ahead inflation expectations rose to 4.7% and long-run expectations to 3.5%.",
+      "source": "University of Michigan; ABC News",
+      "url": "https://www.sca.isr.umich.edu/",
+      "source_url": "https://www.sca.isr.umich.edu/"
+    },
+    {
+      "date": "2026-10-20",
+      "headline": "Reuters poll: Fed to skip October, hike in December",
+      "summary": "94 of 100 economists polled October 16-20 expect the Fed to hold at 3.75%-4.00% this month, and all 100 expect a December hike, up from fewer than half in September's poll.",
+      "source": "Reuters via U.S. News",
+      "url": "https://money.usnews.com/investing/news/articles/2026-10-20/fed-to-skip-october-but-raise-rates-again-in-december-nearly-all-economists-say-reuters-poll",
+      "source_url": "https://money.usnews.com/investing/news/articles/2026-10-20/fed-to-skip-october-but-raise-rates-again-in-december-nearly-all-economists-say-reuters-poll"
+    },
+    {
+      "date": "2026-10-16",
+      "headline": "Warsh declines to prejudge October as blackout begins",
+      "summary": "At the IMF/World Bank meetings, Chair Warsh said the world has broadly conformed to the Fed's September expectations and that he does not prejudge meetings, pushing October hike odds down to about 15%.",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/10/16/warsh-federal-reserve-interest-rates",
+      "source_url": "https://www.axios.com/2026/10/16/warsh-federal-reserve-interest-rates"
+    },
+    {
+      "date": "2026-10-16",
+      "headline": "Markets expect the Fed to hold in October",
+      "summary": "Futures assigned about a 15% probability of an October hike Friday morning, with the September projections leaving room for a pause in October and a hike in December.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html",
+      "source_url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html"
+    },
+    {
+      "date": "2026-10-14",
+      "headline": "September CPI runs hot at 3.7%, core rises to 2.6%",
+      "summary": "Consumer prices rose 0.6% in September and 3.7% from a year earlier, up from 3.4% in August, as gasoline jumped 9.1%. Core CPI rose 0.3% on the month and 2.6% on the year, both a tick above forecasts.",
+      "source": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
+      "source_url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+    },
+    {
+      "date": "2026-10-14",
+      "headline": "October hike odds jump above 50% after CPI",
+      "summary": "CME FedWatch odds of an October 28 quarter-point hike climbed to 53.7% from 22.1% a day earlier, with more than 95% odds of at least one hike by year-end and about 40% odds of 50bp of tightening.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/14/fed-may-now-have-to-hike-twice-or-increase-by-a-half-point-in-december-traders-bet.html",
+      "source_url": "https://www.cnbc.com/2026/10/14/fed-may-now-have-to-hike-twice-or-increase-by-a-half-point-in-december-traders-bet.html"
+    },
+    {
+      "date": "2026-10-14",
+      "headline": "Goolsbee calls September inflation discouraging but favors waiting on more data",
+      "summary": "Chicago Fed President Austan Goolsbee said the September inflation report was discouraging but signaled a preference for gathering more data before the next move.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/economy/policy/article/chicago-feds-goolsbee-calls-september-inflation-discouraging-but-favors-waiting-on-more-data-185843740.html",
+      "source_url": "https://finance.yahoo.com/economy/policy/article/chicago-feds-goolsbee-calls-september-inflation-discouraging-but-favors-waiting-on-more-data-185843740.html"
+    },
+    {
+      "date": "2026-10-09",
+      "headline": "Consumer sentiment falls to five-month low in early October",
+      "summary": "The University of Michigan's preliminary October sentiment index fell to 46.3 from 48.1, below expectations of 47.6, as the current-conditions gauge dropped to 44.7 amid high prices.",
+      "source": "Trading Economics / University of Michigan",
+      "url": "https://tradingeconomics.com/united-states/consumer-confidence/news/590907",
+      "source_url": "https://tradingeconomics.com/united-states/consumer-confidence/news/590907"
+    },
+    {
+      "date": "2026-10-08",
+      "headline": "Waller anticipates additional rate hikes, with flexibility on timing",
+      "summary": "Governor Waller said that if data come in as expected he anticipates additional hikes to return inflation to 2% in a timelier way; the hikes need not come at consecutive meetings but should be in place within an acceptable period.",
+      "source": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm",
+      "source_url": "https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm"
+    },
+    {
+      "date": "2026-10-07",
+      "headline": "September FOMC minutes: most officials see another hike as likely by year-end",
+      "summary": "Minutes of the September 15-16 meeting showed participants agreed the hike was warranted, judged inflation progress insufficient with upside risks, and most saw a further increase as appropriate by year-end while keeping every meeting live.",
+      "source": "Federal Reserve; TD Economics",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm"
+    },
+    {
+      "date": "2026-10-07",
+      "headline": "October hike odds fall to about 19% as December stays in play",
+      "summary": "CME FedWatch odds of an October 28 hike fell to 19.4% (80.6% hold), down from 50.9% a week earlier, while a December quarter-point increase was priced at roughly 70%.",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/10/07/october-rate-hike-odds-just-fell-from-51-to-19-in-one-week/",
+      "source_url": "https://247wallst.com/investing/2026/10/07/october-rate-hike-odds-just-fell-from-51-to-19-in-one-week/"
+    },
+    {
+      "date": "2026-10-02",
+      "headline": "September payrolls rise just 29,000; unemployment ticks up to 4.2%",
+      "summary": "The economy added 29,000 jobs in September versus about 90,000 expected, July-August payrolls were revised down a combined 60,000, and the unemployment rate rose to 4.2% from 4.1% as the labor force grew.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/business/us-job-growth-slows-sharply-september-unemployment-rate-rises-42-2026-10-02/",
+      "source_url": "https://www.reuters.com/business/us-job-growth-slows-sharply-september-unemployment-rate-rises-42-2026-10-02/"
+    },
+    {
+      "date": "2026-10-02",
+      "headline": "October Fed hike odds collapse after weak jobs report",
+      "summary": "CME FedWatch odds of an October quarter-point hike fell to about 17% from roughly 36% a week earlier, while odds of a hike by December stayed above 75%. Vanguard's Adam Schickling said the report strengthens the case for the Fed to remain patient.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html",
+      "source_url": "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html"
+    },
+    {
+      "date": "2026-10-01",
+      "headline": "Williams and Jefferson lean against an October hike",
+      "summary": "New York Fed President John Williams said there is no need for urgency and one further increase may be appropriate late this year, while Vice Chair Philip Jefferson said deciding the next move may take more time.",
+      "source": "Reuters via Yahoo Finance",
+      "url": "https://finance.yahoo.com/economy/policy/articles/fed-may-time-next-interest-173209828.html",
+      "source_url": "https://finance.yahoo.com/economy/policy/articles/fed-may-time-next-interest-173209828.html"
+    },
+    {
+      "date": "2026-09-30",
+      "headline": "Cook reaffirms commitment to lowering inflation while preserving labor-market strength",
+      "summary": "Governor Lisa Cook said inflation has been too high for too long and she remains committed to returning inflation to the Fed's objective while preserving labor-market strength; her remarks did not announce a new policy decision.",
+      "source": "Federal Reserve",
+      "source_url": "https://www.federalreserve.gov/newsevents/speech/cook20260930a.htm"
+    },
+    {
+      "date": "2026-09-29",
+      "headline": "Barr says further policy adjustments likely as inflation remains too high",
+      "summary": "Governor Michael Barr said inflation remains above the FOMC's 2% objective, risks to inflation have increased while labor-market risks have receded, and further policy adjustments are likely needed in his base case.",
+      "source": "Federal Reserve",
+      "source_url": "https://www.federalreserve.gov/newsevents/speech/barr20260929a.htm"
+    },
+    {
+      "date": "2026-09-24",
+      "headline": "Williams says another Fed rate hike this year is a reasonable expectation",
+      "summary": "New York Fed President John Williams said it was reasonable to expect another rate hike by year-end, while emphasizing that policymakers will assess incoming data rather than provide explicit forward guidance.",
+      "source": "CNBC",
+      "source_url": "https://www.cnbc.com/amp/2026/09/24/feds-williams-another-rate-hike-by-year-end.html"
+    },
+    {
+      "date": "2026-09-23",
+      "headline": "Fed's Barr says further rate hikes will likely be needed",
+      "summary": "Reuters reported that Federal Reserve Governor Michael Barr said further rate increases will likely be needed as inflation pressures remain elevated and the economy stays firm; markets increased the probability of an October hike.",
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/feds-barr-says-further-rate-hikes-will-likely-be-needed-2026-09-23/"
+    },
+    {
+      "date": "2026-09-17",
+      "headline": "Brokerages expect at least one more Fed hike by year-end after September move",
+      "summary": "Reuters reported that most major brokerages expect the Federal Reserve to raise rates at least once more this year after the September hike. Goldman Sachs and BofA Global Research see October as the next increase, while J.P. Morgan and most other firms expect a December hike; BofA forecasts two additional hikes.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/business/finance/wall-street-brokerages-pencil-fed-rate-cuts-mid2026-09-15/",
+      "source_url": "https://www.reuters.com/business/finance/wall-street-brokerages-pencil-fed-rate-cuts-mid2026-09-15/"
+    },
+    {
+      "date": "2026-09-16",
+      "headline": "Fed raises target range to 3.75%-4.00% in unanimous September decision",
+      "summary": "The Federal Reserve raised the federal funds target range by 25 basis points to 3.75%-4.00% in a 12-0 vote, saying inflation remains elevated and the action should support a timelier return to its 2% goal.",
+      "source": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+    },
+    {
+      "date": "2026-09-16",
+      "headline": "Fed raises rates and signals further tightening ahead",
+      "summary": "Reuters reported that the Federal Reserve raised rates by 25 basis points to 3.75%-4.00% and flagged further increases as it works to bring elevated inflation down more quickly.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/business/warshs-words-may-matter-more-than-anticipated-fed-rate-hike-2026-09-16/",
+      "source_url": "https://www.reuters.com/business/warshs-words-may-matter-more-than-anticipated-fed-rate-hike-2026-09-16/"
+    },
+    {
+      "date": "2026-09-14",
+      "headline": "Goldman Sachs and J.P. Morgan now expect a September Fed hike",
+      "summary": "Reuters reported that Goldman Sachs and J.P. Morgan now expect the Federal Reserve to raise rates by 25 basis points at the September 15-16 meeting after stronger-than-expected inflation readings. Goldman reversed its previous forecast for rates to remain unchanged.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/business/goldman-sachs-now-expects-fed-hike-rates-september-2026-09-14/",
+      "source_url": "https://www.reuters.com/business/goldman-sachs-now-expects-fed-hike-rates-september-2026-09-14/"
+    },
+    {
+      "date": "2026-09-11",
+      "headline": "August CPI cements Fed rate-hike odds near 86%",
+      "summary": "The Bureau of Labor Statistics reported August CPI rose 3.4% year-over-year (0.4% month-over-month), while core CPI rose 2.4% year-over-year (0.3% month-over-month), a touch hotter than the 0.2% core consensus. CNBC reported the hotter core print pushed CME FedWatch's implied probability of a quarter-point hike at next week's FOMC meeting to nearly 86%, up from 72% on Thursday.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/11/august-consumer-inflation-cements-fed-rate-hike-odds-what-wall-street-is-saying.html",
+      "source_url": "https://www.cnbc.com/2026/09/11/august-consumer-inflation-cements-fed-rate-hike-odds-what-wall-street-is-saying.html"
+    },
+    {
+      "date": "2026-09-08",
+      "headline": "Trump's baffling Fed threat could be gift to Warsh",
+      "summary": "Reuters reported that President Trump's pressure for lower rates and threat to restrict trade with countries running deficits could give Fed Chair Kevin Warsh an opportunity to distance the central bank from the White House; markets were focused on the September hike decision ahead.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/trumps-baffling-fed-threat-could-be-gift-to-warsh-mike-dolan-2026-09-08/",
+      "source_url": "https://www.reuters.com/commentary/reuters-open-interest/trumps-baffling-fed-threat-could-be-gift-to-warsh-mike-dolan-2026-09-08/"
+    },
+    {
+      "date": "2026-09-05",
+      "headline": "Trump presses Warsh to avoid a September Fed hike as markets price a roughly 60% chance of tightening",
+      "summary": "CNBC reported that President Donald Trump, Vice President JD Vance, and other administration officials publicly pushed the Federal Reserve to avoid an interest-rate increase or lower rates. Markets had priced roughly 60% odds of a quarter-point September hike after the strong August jobs report.",
+      "source": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/09/05/trump-warsh-fed-september-rate-hike.html"
+    },
+    {
+      "date": "2026-09-04",
+      "headline": "Strong August jobs report lifts September Fed-hike expectations",
+      "summary": "Reuters reported that August payrolls rose by 162,000 and the unemployment rate held at 4.1%, lifting the CME FedWatch-implied probability of a 25bp September hike to 58.4% from 49.4% on Thursday.",
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/nasdaq-sp-500-futures-climb-ahead-key-jobs-report-2026-09-04/"
+    },
+    {
+      "date": "2026-09-03",
+      "headline": "Waller says recent disinflation signs could support a September hold, but a hike remains possible",
+      "summary": "Federal Reserve Governor Christopher Waller said recent data suggest some signs of disinflation and that he would lean toward holding the target for the federal funds rate if the improvement continues, but said a September 15-16 hike could be appropriate if the improvement proves fleeting.",
+      "source": "Federal Reserve",
+      "source_url": "https://www.federalreserve.gov/newsevents/speech/waller20260903a.htm"
+    },
+    {
+      "date": "2026-09-02",
+      "headline": "Fed Beige Book reports modest growth, slight employment gains, and moderately rising prices",
+      "summary": "The Federal Reserve's latest Beige Book said economic activity increased modestly, employment rose slightly, and prices increased moderately in recent weeks, with energy, transportation, and raw-material cost pressures adding uncertainty ahead of the September meeting.",
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/economic-activity-edged-up-prices-rose-moderately-recent-weeks-fed-survey-shows-2026-09-02/"
+    },
+    {
+      "date": "2026-09-01",
+      "headline": "Barr says the Fed should raise rates decisively if inflation does not moderate",
+      "summary": "Federal Reserve Governor Michael Barr said he could support taking more time if inflation is moving toward the 2% target, but that the Fed should act decisively to raise rates if inflation is not moderating sufficiently ahead of the September 15-16 meeting.",
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/feds-barr-open-rate-hike-if-inflation-does-not-moderate-2026-09-01/"
+    },
+    {
+      "date": "2026-08-31",
+      "headline": "Jackson Hole analysts see a hawkish shift in Warsh's Fed outlook",
+      "summary": "CNBC reported that analysts saw Federal Reserve Chair Kevin Warsh's Jackson Hole stance as unexpectedly hawkish; futures traders put the probability of a quarter-point September hike at 60.4%, while Deutsche Bank continued to forecast two 25bp hikes in 2026.",
+      "source": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/08/31/jackson-hole-fed-chair-kevin-warsh-hawkish-rate-hikes-analysts.html"
+    },
+    {
+      "date": "2026-08-28",
+      "headline": "Warsh signals the Fed may need to hike rates if above-target inflation persists",
+      "summary": "Reuters reported that Chair Kevin Warsh's Jackson Hole speech delivered a more hawkish inflation message and lifted market pricing for a September rate increase to about 60%, from roughly 40% before the speech.",
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/will-warshs-jackson-hole-speech-be-course-correction-or-detour-2026-08-28/"
+    },
+    {
+      "date": "2026-08-27",
+      "headline": "As Jackson Hole conference kicks off, two Fed officials warn about inflation",
+      "summary": "Kansas City Fed President Jeffrey Schmid and Chicago Fed President Austan Goolsbee both flagged persistent inflation at the Kansas City Fed's Jackson Hole symposium. Schmid said inflation is \"still stubborn and sticky\" and that the current 3.50%-3.75% policy rate does not appear restrictive, though he wants more data before backing a September hike. Goolsbee called inflation running above target for five years \"disturbing\" and warned the public could come to see high prices as permanent, while noting the recent 3-month inflation trend \"doesn't look terrible.\"",
+      "source": "Reuters / Idaho Business Review",
+      "url": "https://idahobusinessreview.com/2026/08/27/fed-officials-warn-inflation-stubborn-jackson-hole/",
+      "source_url": "https://idahobusinessreview.com/2026/08/27/fed-officials-warn-inflation-stubborn-jackson-hole/"
+    },
+    {
+      "date": "2026-08-26",
+      "headline": "Fed hike case gains steam after hotter-than-expected PCE inflation data",
+      "summary": "Reuters reported that the 12-month PCE inflation gain rose to 3.7% in July from 3.6% in June; fed funds futures reflected about 44% odds of a September hike versus about 36% immediately before, and traders were fully convinced of at least one hike by year-end.",
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/fed-seen-bit-more-likely-hike-after-inflation-data-2026-08-26/"
+    },
+    {
+      "date": "2026-08-20",
+      "headline": "Fed's Musalem says he won't prejudge September rate call",
+      "summary": "St. Louis Fed President Alberto Musalem said he would keep an open mind on the September 15-16 decision, while describing policy as accommodative and saying underlying inflation remained between 2.5% and 3%, above the Fed's 2% target.",
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/markets/us/feds-musalem-says-wont-prejudge-rate-call-view-september-fomc-cnbc-2026-08-20/"
+    },
+    {
+      "date": "2026-08-19",
+      "headline": "Fed minutes show many officials saw a hike as necessary if inflation failed to cool",
+      "summary": "The Federal Reserve released minutes from the July 28-29 FOMC meeting. The minutes said several policymakers were ready to raise rates and many believed a hike would be needed if inflation did not decline, after the committee voted 9-3 to hold at 3.50%-3.75%.",
+      "source": "Federal Reserve",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm"
+    },
+    {
+      "date": "2026-08-18",
+      "headline": "Global brokerages diverge on the Fed policy path",
+      "summary": "Reuters reported that more research firms were forecasting at least one Fed hike this year, while futures were pricing nearly a 35% chance of a 25bp September hike, down from 48.4% a week earlier; Wells Fargo Investment Institute became the latest firm to forecast a hike.",
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/finance/wall-street-brokerages-pencil-fed-rate-cuts-mid2026-2026-08-18/"
+    },
+    {
+      "date": "2026-08-12",
+      "headline": "Fed expected to leave rates unchanged next month after soft inflation data",
+      "summary": "Reuters reported that July CPI rose 3.4% year over year and core CPI slowed to 2.5%, leading traders to add to bets for no change at the September 15-16 FOMC meeting; futures still priced a 38% chance of a hike at that point.",
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/traders-stick-narrow-bets-september-fed-hold-after-inflation-data-2026-08-12/"
+    },
+    {
+      "date": "2026-08-10",
+      "headline": "Fading Fed hike bets after weak July jobs data put September decision back in play",
+      "summary": "Reuters reported that fed funds futures implied a 44% probability of a September 15-16 rate hike, down from 55% before the weak July employment report; investors are awaiting the July CPI release.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/india/fading-fed-hike-bets-rbi-backstop-blunts-oil-pressure-rupee-2026-08-10/",
+      "source_url": "https://www.reuters.com/world/india/fading-fed-hike-bets-rbi-backstop-blunts-oil-pressure-rupee-2026-08-10/"
+    },
+    {
+      "date": "2026-08-07",
+      "headline": "US rate futures cut chances of September Fed hike after weak jobs data",
+      "summary": "Reuters reported that rate futures reduced the probability of a September Fed tightening to 43.9% from 57% before the July jobs report, while the reported hold probability rose to 60.4% from 43.2%.",
+      "source": "Reuters",
+      "source_url": "http://rmb.reuters.com/rmd/rss/item/tag:reuters.com,2026:newsml_KBN3TY1C1?channel=frL012"
+    },
+    {
+      "date": "2026-08-07",
+      "headline": "Soft July jobs report fuels skepticism over possible Fed rate hike",
+      "summary": "Reuters said the U.S. unexpectedly shed jobs in July and prior payrolls were revised sharply lower, with futures pricing roughly 40% odds of a September hike versus 55% before the report.",
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/view-soft-july-jobs-report-fuels-skepticism-over-possible-fed-rate-hike-2026-08-07/"
+    },
+    {
+      "date": "2026-08-06",
+      "headline": "Fed officials send mixed signals ahead of the September meeting",
+      "summary": "Reuters reported that Governor Lisa Cook was open to raising rates if inflation stays too high, while San Francisco Fed President Mary Daly was comfortable with the July hold as the Fed waits for more data.",
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-2026-08-06/"
+    },
+    {
+      "date": "2026-08-05",
+      "headline": "Fed's Cook ready to raise rates if inflation doesn't start easing",
+      "summary": "Federal Reserve Governor Lisa Cook said she was prepared to raise the policy rate if inflation does not start cooling, while noting that holding rates unchanged at the July meeting was appropriate while officials assess incoming data.",
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/feds-cook-says-ready-raise-rates-if-inflation-doesnt-start-easing-2026-08-05/"
+    },
+    {
+      "date": "2026-08-05",
+      "headline": "Fed's Schmid says tighter policy needed to bring inflation back to 2%",
+      "summary": "Kansas City Fed President Jeff Schmid said tighter monetary policy is needed to bring inflation back to the Fed's 2% target. Schmid does not currently vote on the FOMC; his remarks followed last week's 9-3 hold.",
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/world/feds-schmid-calls-tighter-monetary-policy-tamp-down-too-high-inflation-2026-08-05/"
+    },
+    {
+      "date": "2026-08-05",
+      "headline": "Kashkari says the Fed should start moving rates up gradually",
+      "summary": "Minneapolis Fed President Neel Kashkari said higher rates are needed now and that a gradual move could begin in September. Kashkari was one of the three dissenters who favored a 25bp hike at the July FOMC meeting.",
+      "source": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/08/05/feds-kashkari-says-now-is-the-time-to-start-slowly-moving-rates-up.html"
+    },
+    {
+      "date": "2026-08-04",
+      "headline": "Fed rate hike odds rise to 65% for September meeting, Reuters reports",
+      "summary": "Reuters reported that Fed funds futures implied a 65% probability of a 25bp hike at the September 15-16 FOMC meeting. No new FOMC decision or statement was issued since the July 29 hold.",
+      "source": "Reuters",
+      "source_url": "http://rmb.reuters.com/rmd/rss/item/tag:reuters.com,2026:newsml_KBN3TV00W?channel=FBi345",
+      "url": "http://rmb.reuters.com/rmd/rss/item/tag:reuters.com,2026:newsml_KBN3TV00W?channel=FBi345"
+    },
+    {
+      "date": "2026-08-03",
+      "headline": "Fed's Williams expects inflation to ease, says Fed will act if it doesn't",
+      "summary": "New York Fed President John Williams said inflation should ease gradually toward the Fed's 2% goal, but the central bank would not hesitate to raise rates if inflation fails to cool. He strongly supported the July hold and said policy is well positioned.",
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/feds-williams-expects-inflation-ease-says-fed-will-act-if-it-doesnt-2026-08-03/",
+      "url": "https://www.reuters.com/business/feds-williams-expects-inflation-ease-says-fed-will-act-if-it-doesnt-2026-08-03/"
+    },
+    {
+      "date": "2026-08-01",
+      "headline": "Treasury selloff signals need to bolster Fed's inflation credibility, Musalem tells Reuters",
+      "summary": "St. Louis Fed President Alberto Musalem said the Treasury selloff underscored the need to reinforce the Fed's inflation credibility. Reuters reported that CME FedWatch implied a 67% chance of a 25bp hike at the September meeting.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/business/finance/treasury-selloff-signals-need-bolster-feds-inflation-credibility-musalem-tells-2026-08-01/",
+      "source_url": "https://www.reuters.com/business/finance/treasury-selloff-signals-need-bolster-feds-inflation-credibility-musalem-tells-2026-08-01/"
+    },
+    {
+      "date": "2026-07-31",
+      "headline": "Fed dissenters sketch the case for a rate hike",
+      "summary": "Cleveland Fed President Beth Hammack said she dissented in favor of a 25bp hike because inflation remained too high and was unlikely to return to target without tighter policy. She was one of three officials who dissented at the July meeting.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/business/feds-hammack-says-tighter-monetary-policy-needed-cool-inflation-2026-07-31/",
+      "source_url": "https://www.reuters.com/business/feds-hammack-says-tighter-monetary-policy-needed-cool-inflation-2026-07-31/"
+    },
+    {
+      "date": "2026-07-30",
+      "headline": "J.P.Morgan brings forward Fed rate hike call to December after July hold",
+      "summary": "J.P. Morgan now expects a quarter-point hike in December 2026 rather than in the second half of 2027, while flagging September hike risk remains live if inflation continues to run hot. Markets priced a 65.2% chance of a September hike, down from 81% before the July statement.",
+      "source": "Reuters via WHTC",
+      "url": "https://whtc.com/2026/07/30/j-p-morgan-brings-forward-fed-rate-hike-call-to-december-after-july-hold/",
+      "source_url": "https://whtc.com/2026/07/30/j-p-morgan-brings-forward-fed-rate-hike-call-to-december-after-july-hold/"
+    },
+    {
+      "date": "2026-07-30",
+      "headline": "Dollar recovers as Fed holds rates, US strikes Iran",
+      "summary": "The dollar steadied after the Fed's hold decision and a US strike on Iran-linked targets added to geopolitical risk premium in markets. Fed funds futures imply a 42.6% probability of a hold at the September meeting, compared with 24% before the July decision.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/asia-pacific/dollar-steadies-fed-holds-rates-us-strikes-iran-2026-07-30/",
+      "source_url": "https://www.reuters.com/world/asia-pacific/dollar-steadies-fed-holds-rates-us-strikes-iran-2026-07-30/"
+    },
+    {
+      "date": "2026-07-30",
+      "headline": "The most hawkish split in a decade: the Fed holds steady with three dissents",
+      "summary": "The FOMC held the target range at 3.50%-3.75% on a 9-3 vote, the most divided vote in over a decade, with three regional presidents dissenting in favor of an immediate 25bp hike. Odds of a September hike stood near 70% pre-decision on CME FedWatch.",
+      "source": "Futu News",
+      "url": "https://news.futunn.com/en/post/76795972/the-most-hawkish-split-in-a-decade-the-fed-holds",
+      "source_url": "https://news.futunn.com/en/post/76795972/the-most-hawkish-split-in-a-decade-the-fed-holds"
+    },
+    {
+      "date": "2026-07-30",
+      "headline": "Fed's hawkish hold and global market reactions",
+      "summary": "Treasury yields jumped after the decision, with the 30-year approaching its highest level since 2007 near 5.10%, and futures pricing roughly a 76% chance of a September rate increase.",
+      "source": "TrustScoreFX",
+      "url": "https://www.trustscorefx.com/market-watch/10495/",
+      "source_url": "https://www.trustscorefx.com/market-watch/10495/"
+    },
+    {
+      "date": "2026-07-29",
+      "headline": "Federal Reserve holds interest rates steady at July FOMC meeting",
+      "summary": "The Fed held its target range at 3.50%-3.75% for a fifth consecutive meeting, in a 9-3 vote with three dissents favoring a hike. Chair Kevin Warsh held a press conference at 2:30pm ET. No meeting is scheduled in August; the next meeting is September 15-16, 2026.",
+      "source": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
+    },
+    {
+      "date": "2026-07-29",
+      "headline": "What a divided Fed means for investors",
+      "summary": "Following the hawkish hold, Fed funds futures suggested a more than 57% likelihood of a quarter-point hike at the September meeting, per CME's FedWatch tool. About 53% of Kalshi traders predicted a hike versus 43% for another hold.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/29/fed-meeting-interest-rates-warsh-stocks-bonds.html",
+      "source_url": "https://www.cnbc.com/2026/07/29/fed-meeting-interest-rates-warsh-stocks-bonds.html"
+    }
+  ],
+  "treasury_source_url": "https://finance.yahoo.com/",
+  "consumer_sentiment": {
+    "headline": {
+      "value": 48.0,
+      "prev": 48.1,
+      "as_of": "2026-10-31",
+      "label": "Consumer Sentiment Index (Oct final)",
+      "source": "University of Michigan",
+      "source_url": "https://www.sca.isr.umich.edu/"
+    },
+    "current_conditions": {
+      "value": 46.7,
+      "prev": 50.9,
+      "as_of": "2026-10-31",
+      "label": "Current Economic Conditions (Oct final)",
+      "source": "University of Michigan",
+      "source_url": "https://www.sca.isr.umich.edu/"
+    },
+    "expectations": {
+      "value": 48.8,
+      "prev": 46.3,
+      "as_of": "2026-10-31",
+      "label": "Consumer Expectations (Oct final)",
+      "source": "University of Michigan",
+      "source_url": "https://www.sca.isr.umich.edu/"
+    },
+    "index_base_note": "Index base: 1966 Q1 = 100 (NSA)"
+  }
+}
