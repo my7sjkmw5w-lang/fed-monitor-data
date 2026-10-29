@@ -1,6 +1,6 @@
 {
  "description": "Monthly history for dashboard trend tiles. CPI, core CPI and unemployment live in inflation_10y.json; Treasury yields in treasury_yields_20y.json.",
- "last_updated": "2026-10-26",
+ "last_updated": "2026-10-29",
  "series": {
   "sentiment_headline": {
    "label": "Consumer Sentiment Index",
@@ -3107,7 +3107,7 @@
      "value": 3.88
     },
     {
-     "date": "2026-10-22",
+     "date": "2026-10-26",
      "value": 3.88
     }
    ]
@@ -3636,8 +3636,8 @@
      "value": 90.42
     },
     {
-     "date": "2026-10-26",
-     "value": 100.96
+     "date": "2026-10-29",
+     "value": 101.28
     }
    ]
   },
@@ -4165,8 +4165,8 @@
      "value": 98.03
     },
     {
-     "date": "2026-10-26",
-     "value": 114.8
+     "date": "2026-10-29",
+     "value": 110.08
     }
    ]
   }

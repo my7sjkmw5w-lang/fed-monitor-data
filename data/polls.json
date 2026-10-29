@@ -1,6 +1,6 @@
 {
   "note": "Static snapshot of published Reuters economist poll results and market-implied odds context. Refreshed periodically by the maintainer (not live-fetched at runtime) because no free real-time API exists for Reuters/FactSet consensus data. Each entry cites its source article.",
-  "last_curated": "2026-10-26",
+  "last_curated": "2026-10-29",
   "snapshots": [
     {
       "poll_date": "2026-03-26",
@@ -338,6 +338,21 @@
         "https://beincrypto.com/fed-week-bitcoin-dollar-options-expiry/",
         "https://www.tradingview.com/news/binance_news:c4935c389094b:0-tradfi-news-markets-price-just-a-10-chance-of-a-fed-hike-next-week-betting-the-next-move-comes-in-december/",
         "https://www.abfjournal.com/middle-market-debt-weekly-a-hawkish-fed-ai-driven-equity-rout-reprice-the-rate-backdrop/"
+      ]
+    },
+    {
+      "as_of": "2026-10-29",
+      "meeting": "2026-12-09",
+      "hike_odds_pct": 83.5,
+      "hold_odds_pct": 16.5,
+      "year_end_at_least_one_hike_pct": 85.7,
+      "year_end_at_least_one_cut_pct": 0.5,
+      "source": "CME FedWatch via TradingKey (Oct 29) and Barron's (Oct 28, post-decision)",
+      "url": "https://www.tradingkey.com/analysis/economic/central-banks/262247759-fed-kevin-warsh-forward-guidance-december-hike-83-percent-tradingkey",
+      "urls": [
+        "https://www.tradingkey.com/analysis/economic/central-banks/262247759-fed-kevin-warsh-forward-guidance-december-hike-83-percent-tradingkey",
+        "https://www.barrons.com/livecoverage/stock-market-news-today-102826/card/traders-expect-quarter-point-rate-hike-in-december-cFtX3Yw59cyPsPjndwxM?mod=livecoverage_timeline",
+        "https://edition.cnn.com/2026/10/28/business/live-news/federal-reserve-interest-rate-october"
       ]
     }
   ],
