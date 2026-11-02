@@ -1,11 +1,11 @@
 {
-  "as_of": "2026-10-29T11:07:41Z",
+  "as_of": "2026-11-02T12:07:29Z",
   "generated_by": "fed-monitor daily refresh",
   "fed_funds": {
     "target_range_low": 3.75,
     "target_range_high": 4.0,
     "effective_rate": 3.88,
-    "effective_rate_date": "2026-10-26",
+    "effective_rate_date": "2026-10-29",
     "last_decision_date": "2026-10-28",
     "last_decision": "Hold",
     "vote": "10-2",
@@ -27,10 +27,10 @@
     {
       "label": "13-Week Bill",
       "maturity": "13W",
-      "yield_pct": 3.99,
-      "change": -0.05,
-      "change_pct": -1.24,
-      "as_of": "2026-10-28",
+      "yield_pct": 3.97,
+      "change": -0.03,
+      "change_pct": -0.63,
+      "as_of": "2026-10-30",
       "ticker": "^IRX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5EIRX/"
@@ -38,10 +38,10 @@
     {
       "label": "5-Year Note",
       "maturity": "5Y",
-      "yield_pct": 4.87,
-      "change": 0.03,
-      "change_pct": 0.62,
-      "as_of": "2026-10-28",
+      "yield_pct": 4.72,
+      "change": -0.08,
+      "change_pct": -1.67,
+      "as_of": "2026-10-30",
       "ticker": "^FVX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5EFVX/"
@@ -49,10 +49,10 @@
     {
       "label": "10-Year Note",
       "maturity": "10Y",
-      "yield_pct": 5.04,
-      "change": 0.05,
-      "change_pct": 1.0,
-      "as_of": "2026-10-28",
+      "yield_pct": 4.93,
+      "change": -0.06,
+      "change_pct": -1.22,
+      "as_of": "2026-10-30",
       "ticker": "^TNX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5ETNX/"
@@ -60,10 +60,10 @@
     {
       "label": "30-Year Bond",
       "maturity": "30Y",
-      "yield_pct": 5.36,
-      "change": 0.05,
-      "change_pct": 0.94,
-      "as_of": "2026-10-28",
+      "yield_pct": 5.31,
+      "change": -0.02,
+      "change_pct": -0.39,
+      "as_of": "2026-10-30",
       "ticker": "^TYX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5ETYX/"
@@ -93,23 +93,23 @@
       "source_url": "https://www.bls.gov/news.release/cpi.nr0.htm"
     },
     "pce_yoy": {
-      "value_pct": 3.4,
+      "value_pct": 3.6,
       "prev_pct": 3.4,
-      "as_of": "2026-08-31",
+      "as_of": "2026-09-30",
       "source": "U.S. Bureau of Economic Analysis",
       "source_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026"
     },
     "core_pce_yoy": {
-      "value_pct": 3.0,
+      "value_pct": 3.1,
       "prev_pct": 3.0,
-      "as_of": "2026-08-31",
+      "as_of": "2026-09-30",
       "source": "U.S. Bureau of Economic Analysis",
       "source_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026"
     },
     "pce_mom": {
-      "value_pct": 0.3,
-      "prev_pct": 0.1,
-      "as_of": "2026-08-31",
+      "value_pct": 0.5,
+      "prev_pct": 0.3,
+      "as_of": "2026-09-30",
       "source": "U.S. Bureau of Economic Analysis",
       "source_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026"
     },
@@ -126,28 +126,28 @@
   },
   "oil": {
     "wti": {
-      "price_usd": 101.28,
-      "change": -1.5,
-      "change_pct": -1.46,
-      "day_low": 100.6,
-      "day_high": 102.31,
-      "as_of": "2026-10-29",
+      "price_usd": 99.8,
+      "change": -4.32,
+      "change_pct": -4.15,
+      "day_low": 99.15,
+      "day_high": 102.75,
+      "as_of": "2026-11-02",
       "ticker": "CLUSD",
       "source": "Perplexity Finance market data",
       "source_url": "https://finance.yahoo.com/quote/CLUSD/"
     },
     "brent": {
-      "price_usd": 110.08,
-      "change": -5.24,
-      "change_pct": -4.54,
-      "day_low": 109.56,
-      "day_high": 110.99,
-      "as_of": "2026-10-29",
+      "price_usd": 108.85,
+      "change": -4.58,
+      "change_pct": -4.04,
+      "day_low": 108.18,
+      "day_high": 112.38,
+      "as_of": "2026-11-02",
       "ticker": "BZUSD",
       "source": "Perplexity Finance market data",
       "source_url": "https://finance.yahoo.com/quote/BZUSD/"
     },
-    "context": "Brent fell about 4.5% early Thursday to $110.08 and WTI slipped 1.5% to $101.28, though both remain near their highest levels since 2022.",
+    "context": "Crude fell about 4% early Monday, with WTI dipping just below $100 and Brent at $108.85, after closing October at $104.12 and $113.43.",
     "source": "Perplexity Finance market data",
     "source_url": "https://finance.yahoo.com/"
   },
@@ -175,9 +175,29 @@
           "source": "CME FedWatch via TradingKey",
           "source_url": "https://www.tradingkey.com/analysis/economic/central-banks/262247759-fed-kevin-warsh-forward-guidance-december-hike-83-percent-tradingkey",
           "note": "83.52% December hike; hold implied as remainder"
+        },
+        {
+          "as_of": "2026-10-30",
+          "hold_pct": 24.0,
+          "hike_pct": 76.0,
+          "hike_25bp_pct": 76.0,
+          "cut_pct": 0.0,
+          "source": "CME FedWatch via CNBC",
+          "source_url": "https://www.cnbc.com/2026/10/30/musalem-fed-monetary-policy-tightening.html",
+          "note": "After Musalem/Logan remarks; hold implied as remainder"
+        },
+        {
+          "as_of": "2026-11-01",
+          "hold_pct": 28.6,
+          "hike_pct": 71.4,
+          "hike_25bp_pct": 71.4,
+          "cut_pct": 0.0,
+          "source": "CME FedWatch via Yahoo Finance",
+          "source_url": "https://finance.yahoo.com/economy/policy/articles/fed-hike-rates-december-prediction-075612146.html",
+          "note": "Hold implied as remainder"
         }
       ],
-      "consensus_note": "The Fed held at 3.75%-4.00% on October 28 in a 10-2 vote, with Governor Cook and Cleveland Fed President Hammack dissenting in favor of a hike. Markets now price about an 84-86% chance of a 25bp hike at the December 8-9 meeting (CME FedWatch), up from about 78% before the decision, as the statement said inflation \"remains elevated\" and more information will guide the next step.",
+      "consensus_note": "CME FedWatch odds of a 25bp hike at the December 8-9 meeting slipped to about 71% as of November 1, from about 86% right after the October 28 hold, even as St. Louis Fed's Musalem and Dallas Fed's Logan called for more hikes. The October jobs report (November 6) and October CPI (November 10) are the next key data points.",
       "economist_forecast": "In a Reuters poll taken October 16-20, all 100 economists expect a quarter-point hike in December, to 4.00%-4.25%; 38 of 92 see at least two more increases.",
       "economist_forecast_source_url": "https://money.usnews.com/investing/news/articles/2026-10-20/fed-to-skip-october-but-raise-rates-again-in-december-nearly-all-economists-say-reuters-poll",
       "odds_sources": [
@@ -272,6 +292,14 @@
         {
           "source": "CME FedWatch via TradingKey",
           "source_url": "https://www.tradingkey.com/analysis/economic/central-banks/262247759-fed-kevin-warsh-forward-guidance-december-hike-83-percent-tradingkey"
+        },
+        {
+          "source": "CME FedWatch via CNBC",
+          "source_url": "https://www.cnbc.com/2026/10/30/musalem-fed-monetary-policy-tightening.html"
+        },
+        {
+          "source": "CME FedWatch via Yahoo Finance",
+          "source_url": "https://finance.yahoo.com/economy/policy/articles/fed-hike-rates-december-prediction-075612146.html"
         }
       ],
       "year_end_odds": {
@@ -291,15 +319,31 @@
     ],
     "calendar_source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
     "year_end_odds": {
-      "at_least_one_hike_pct": 85.7,
+      "at_least_one_hike_pct": 71.4,
       "at_least_one_cut_pct": 0.5,
-      "as_of": "2026-10-28",
-      "note": "After the October 28 hold, CME FedWatch priced an 85.7% chance of a quarter-point hike at the December meeting (78.3% on October 27); odds of a half-point of cuts by year-end fell to 0.5%.",
-      "source": "CME FedWatch via Barron's",
-      "source_url": "https://www.barrons.com/livecoverage/stock-market-news-today-102826/card/traders-expect-quarter-point-rate-hike-in-december-cFtX3Yw59cyPsPjndwxM?mod=livecoverage_timeline"
+      "as_of": "2026-11-01",
+      "note": "CME FedWatch priced a 71.4% chance of a quarter-point hike at the December meeting (the last of 2026), down from 85.7% right after the October 28 hold.",
+      "source": "CME FedWatch via Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/economy/policy/articles/fed-hike-rates-december-prediction-075612146.html"
     }
   },
   "fed_news": [
+    {
+      "date": "2026-10-30",
+      "headline": "Musalem and Logan say more hikes are needed",
+      "summary": "St. Louis Fed's Alberto Musalem said additional firming will be necessary \"and soon,\" and Dallas Fed's Lorie Logan, a 2026 voter, said the FOMC needs at least two more 25bp increases, though not necessarily at every meeting.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/30/musalem-fed-monetary-policy-tightening.html",
+      "source_url": "https://www.cnbc.com/2026/10/30/musalem-fed-monetary-policy-tightening.html"
+    },
+    {
+      "date": "2026-10-29",
+      "headline": "September PCE inflation rises to 3.6%; core 3.1%; Q3 GDP grows 3.4%",
+      "summary": "The Fed's preferred inflation gauge rose 0.5% in September, the largest monthly gain since March, lifting annual PCE inflation to 3.6% from 3.4%; core rose 0.3% to 3.1% year over year. Third-quarter GDP grew at a 3.4% annualized rate.",
+      "source": "BEA; CNBC",
+      "url": "https://www.cnbc.com/amp/2026/10/29/pce-inflation-report-september-2026-.html",
+      "source_url": "https://www.bea.gov/data/personal-consumption-expenditures-price-index"
+    },
     {
       "date": "2026-10-28",
       "headline": "Fed holds at 3.75%-4.00% in 10-2 vote; Cook and Hammack dissent for a hike",
