@@ -1,6 +1,6 @@
 {
   "note": "Static snapshot of published Reuters economist poll results and market-implied odds context. Refreshed periodically by the maintainer (not live-fetched at runtime) because no free real-time API exists for Reuters/FactSet consensus data. Each entry cites its source article.",
-  "last_curated": "2026-11-02",
+  "last_curated": "2026-11-05",
   "snapshots": [
     {
       "poll_date": "2026-03-26",
@@ -366,6 +366,20 @@
       "urls": [
         "https://finance.yahoo.com/economy/policy/articles/fed-hike-rates-december-prediction-075612146.html",
         "https://www.cnbc.com/2026/10/30/musalem-fed-monetary-policy-tightening.html"
+      ]
+    },
+    {
+      "as_of": "2026-11-05",
+      "meeting": "2026-12-09",
+      "hike_odds_pct": 81.2,
+      "hold_odds_pct": 18.8,
+      "year_end_at_least_one_hike_pct": 81.2,
+      "source": "Investing.com Fed Rate Monitor (CME futures); CME FedWatch via Vantage Markets (Nov 4, 79%)",
+      "url": "https://www.investing.com/central-banks/fed-rate-monitor",
+      "urls": [
+        "https://www.investing.com/central-banks/fed-rate-monitor",
+        "https://www.vantagemarkets.co.uk/market-analysis/why-gold-stalled-fed-hike-bets-xauusd-analysis-november-4-2026/",
+        "https://mobee.com/en/mobee-academy/market-update/harga-bitcoin-hari-ini"
       ]
     }
   ],
