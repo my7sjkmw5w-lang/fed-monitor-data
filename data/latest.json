@@ -1,11 +1,11 @@
 {
-  "as_of": "2026-11-05T12:07:31Z",
+  "as_of": "2026-11-09T12:07:21Z",
   "generated_by": "fed-monitor daily refresh",
   "fed_funds": {
     "target_range_low": 3.75,
     "target_range_high": 4.0,
     "effective_rate": 3.88,
-    "effective_rate_date": "2026-11-02",
+    "effective_rate_date": "2026-11-05",
     "last_decision_date": "2026-10-28",
     "last_decision": "Hold",
     "vote": "10-2",
@@ -27,10 +27,10 @@
     {
       "label": "13-Week Bill",
       "maturity": "13W",
-      "yield_pct": 4.03,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "as_of": "2026-11-04",
+      "yield_pct": 4.0,
+      "change": 0.01,
+      "change_pct": 0.33,
+      "as_of": "2026-11-06",
       "ticker": "^IRX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5EIRX/"
@@ -38,10 +38,10 @@
     {
       "label": "5-Year Note",
       "maturity": "5Y",
-      "yield_pct": 4.69,
-      "change": -0.05,
-      "change_pct": -1.14,
-      "as_of": "2026-11-04",
+      "yield_pct": 4.65,
+      "change": 0.04,
+      "change_pct": 0.87,
+      "as_of": "2026-11-06",
       "ticker": "^FVX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5EFVX/"
@@ -49,10 +49,10 @@
     {
       "label": "10-Year Note",
       "maturity": "10Y",
-      "yield_pct": 4.89,
-      "change": -0.06,
-      "change_pct": -1.17,
-      "as_of": "2026-11-04",
+      "yield_pct": 4.86,
+      "change": 0.02,
+      "change_pct": 0.45,
+      "as_of": "2026-11-06",
       "ticker": "^TNX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5ETNX/"
@@ -60,10 +60,10 @@
     {
       "label": "30-Year Bond",
       "maturity": "30Y",
-      "yield_pct": 5.28,
-      "change": -0.04,
-      "change_pct": -0.79,
-      "as_of": "2026-11-04",
+      "yield_pct": 5.26,
+      "change": 0.01,
+      "change_pct": 0.17,
+      "as_of": "2026-11-06",
       "ticker": "^TYX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5ETYX/"
@@ -115,9 +115,9 @@
     },
     "fed_target_pct": 2.0,
     "unemployment_rate": {
-      "value_pct": 4.2,
-      "prev_pct": 4.1,
-      "as_of": "2026-09-30",
+      "value_pct": 4.1,
+      "prev_pct": 4.2,
+      "as_of": "2026-10-31",
       "source": "U.S. Bureau of Labor Statistics",
       "source_url": "https://www.bls.gov/news.release/empsit.nr0.htm"
     },
@@ -126,28 +126,28 @@
   },
   "oil": {
     "wti": {
-      "price_usd": 89.73,
-      "change": 1.69,
-      "change_pct": 1.92,
-      "day_low": 86.66,
-      "day_high": 89.83,
-      "as_of": "2026-11-05",
+      "price_usd": 88.32,
+      "change": -2.51,
+      "change_pct": -2.76,
+      "day_low": 87.56,
+      "day_high": 91.41,
+      "as_of": "2026-11-09",
       "ticker": "CLUSD",
       "source": "Perplexity Finance market data",
       "source_url": "https://finance.yahoo.com/quote/CLUSD/"
     },
     "brent": {
-      "price_usd": 96.69,
-      "change": 2.07,
-      "change_pct": 2.19,
-      "day_low": 93.44,
-      "day_high": 96.83,
-      "as_of": "2026-11-05",
+      "price_usd": 94.98,
+      "change": -3.34,
+      "change_pct": -3.4,
+      "day_low": 94.44,
+      "day_high": 98.42,
+      "as_of": "2026-11-09",
       "ticker": "BZUSD",
       "source": "Perplexity Finance market data",
       "source_url": "https://finance.yahoo.com/quote/BZUSD/"
     },
-    "context": "Crude bounced about 2% early Thursday (WTI $89.73, Brent $96.69) but remains well below last week's levels, after a roughly 10% slide since November 2.",
+    "context": "Crude fell about 3% early Monday (WTI $88.32, Brent $94.98), extending a slide of roughly 15% since late October.",
     "source": "Perplexity Finance market data",
     "source_url": "https://finance.yahoo.com/"
   },
@@ -156,36 +156,6 @@
       "date_range": "2026-12-08 to 2026-12-09",
       "decision_date": "2026-12-09",
       "market_implied_odds": [
-        {
-          "as_of": "2026-10-29",
-          "hold_pct": 16.5,
-          "hike_pct": 83.5,
-          "hike_25bp_pct": 83.5,
-          "cut_pct": 0.0,
-          "source": "CME FedWatch via TradingKey",
-          "source_url": "https://www.tradingkey.com/analysis/economic/central-banks/262247759-fed-kevin-warsh-forward-guidance-december-hike-83-percent-tradingkey",
-          "note": "83.52% December hike; hold implied as remainder"
-        },
-        {
-          "as_of": "2026-10-30",
-          "hold_pct": 24.0,
-          "hike_pct": 76.0,
-          "hike_25bp_pct": 76.0,
-          "cut_pct": 0.0,
-          "source": "CME FedWatch via CNBC",
-          "source_url": "https://www.cnbc.com/2026/10/30/musalem-fed-monetary-policy-tightening.html",
-          "note": "After Musalem/Logan remarks; hold implied as remainder"
-        },
-        {
-          "as_of": "2026-11-01",
-          "hold_pct": 28.6,
-          "hike_pct": 71.4,
-          "hike_25bp_pct": 71.4,
-          "cut_pct": 0.0,
-          "source": "CME FedWatch via Yahoo Finance",
-          "source_url": "https://finance.yahoo.com/economy/policy/articles/fed-hike-rates-december-prediction-075612146.html",
-          "note": "Hold implied as remainder"
-        },
         {
           "as_of": "2026-11-03",
           "hold_pct": 23.0,
@@ -214,9 +184,29 @@
           "cut_pct": 0.0,
           "source": "Investing.com Fed Rate Monitor (CME futures)",
           "source_url": "https://www.investing.com/central-banks/fed-rate-monitor"
+        },
+        {
+          "as_of": "2026-11-06",
+          "hold_pct": 23.2,
+          "hike_pct": 76.8,
+          "hike_25bp_pct": 76.8,
+          "cut_pct": 0.0,
+          "source": "CME FedWatch via Yahoo Finance",
+          "source_url": "https://finance.yahoo.com/economy/policy/articles/odds-december-rate-hike-jump-173301658.html",
+          "note": "After the October jobs report; 66.9% at the Nov 5 close"
+        },
+        {
+          "as_of": "2026-11-09",
+          "hold_pct": 25.0,
+          "hike_pct": 75.0,
+          "hike_25bp_pct": 75.0,
+          "cut_pct": 0.0,
+          "source": "LSEG money-market pricing via Dow Jones/Morningstar",
+          "source_url": "https://www.morningstar.com/news/dow-jones/202611091081/week-ahead-for-fx-bonds-us-inflation-data-could-give-clues-on-rate-hike-prospects",
+          "note": "Hold implied as remainder"
         }
       ],
-      "consensus_note": "Odds of a 25bp hike at the December 8-9 meeting firmed back to about 81% (Investing.com, CME futures) on November 5, from about 71% on November 1, after stronger September job openings and the midterm elections. The October jobs report (November 6) and October CPI (November 10) are the next key data points.",
+      "consensus_note": "Markets price roughly a 75-77% chance of a 25bp hike at the December 8-9 meeting: CME FedWatch rose to 76.8% after the stronger-than-expected October jobs report (from 66.9% at the November 5 close), and LSEG data showed about 75% on November 9. October CPI (November 10) and the November jobs report (December 4) are the last major data before the meeting.",
       "economist_forecast": "J.P. Morgan expects a quarter-point hike in December but not a longer hiking cycle; a Reuters poll taken October 16-20 found all 100 economists expect a December hike.",
       "economist_forecast_source_url": "https://www.jpmorgan.com/insights/global-research/economy/fed-rate-cuts",
       "odds_sources": [
@@ -323,6 +313,14 @@
         {
           "source": "CME FedWatch via Vantage Markets",
           "source_url": "https://www.vantagemarkets.co.uk/market-analysis/why-gold-stalled-fed-hike-bets-xauusd-analysis-november-4-2026/"
+        },
+        {
+          "source": "CME FedWatch via Yahoo Finance",
+          "source_url": "https://finance.yahoo.com/economy/policy/articles/odds-december-rate-hike-jump-173301658.html"
+        },
+        {
+          "source": "LSEG via Dow Jones/Morningstar",
+          "source_url": "https://www.morningstar.com/news/dow-jones/202611091081/week-ahead-for-fx-bonds-us-inflation-data-could-give-clues-on-rate-hike-prospects"
         }
       ],
       "year_end_odds": {
@@ -342,15 +340,39 @@
     ],
     "calendar_source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
     "year_end_odds": {
-      "at_least_one_hike_pct": 81.2,
+      "at_least_one_hike_pct": 76.8,
       "at_least_one_cut_pct": 0.5,
-      "as_of": "2026-11-05",
-      "note": "December is the final 2026 meeting; CME-futures-implied odds of a quarter-point hike there were 81.2% on November 5 (76.2% a week earlier).",
-      "source": "Investing.com Fed Rate Monitor (CME futures)",
-      "source_url": "https://www.investing.com/central-banks/fed-rate-monitor"
+      "as_of": "2026-11-06",
+      "note": "December is the final 2026 meeting; CME FedWatch put a quarter-point hike there at 76.8% after the October jobs report (66.9% a day earlier).",
+      "source": "CME FedWatch via Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/economy/policy/articles/odds-december-rate-hike-jump-173301658.html"
     }
   },
   "fed_news": [
+    {
+      "date": "2026-11-06",
+      "headline": "October payrolls jump 165,000; unemployment falls to 4.1%",
+      "summary": "Payrolls far exceeded the ~65,000 forecast, August-September were revised up by a combined 84,000, and average hourly earnings rose 0.4%. December hike odds rose to about 77% from 67%.",
+      "source": "BLS; Yahoo Finance",
+      "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+      "source_url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+    },
+    {
+      "date": "2026-11-06",
+      "headline": "Consumer sentiment rises to 51.0 in preliminary November reading",
+      "summary": "The University of Michigan index rose from 48.0 to a three-month high; current conditions rose to 51.0 and expectations to 50.9. Year-ahead inflation expectations eased to 4.3% from 4.7%.",
+      "source": "University of Michigan",
+      "url": "https://www.sca.isr.umich.edu/",
+      "source_url": "https://www.sca.isr.umich.edu/"
+    },
+    {
+      "date": "2026-11-05",
+      "headline": "Hammack and Barkin back a gradual path of rate hikes",
+      "summary": "Cleveland Fed's Beth Hammack said policy needs to move to a restrictive stance, and Richmond Fed's Thomas Barkin said inflation is \"too high\" and that \"gradual makes sense\" for the pace of hikes.",
+      "source": "Reuters via Yahoo Finance",
+      "url": "https://finance.yahoo.com/economy/policy/articles/feds-hammack-favors-gradual-rate-135118553.html",
+      "source_url": "https://finance.yahoo.com/economy/policy/articles/feds-hammack-favors-gradual-rate-135118553.html"
+    },
     {
       "date": "2026-11-04",
       "headline": "December hike odds firm to about 79-81% after strong job openings and midterms",
@@ -813,26 +835,26 @@
   "treasury_source_url": "https://finance.yahoo.com/",
   "consumer_sentiment": {
     "headline": {
-      "value": 48.0,
-      "prev": 48.1,
-      "as_of": "2026-10-31",
-      "label": "Consumer Sentiment Index (Oct final)",
+      "value": 51.0,
+      "prev": 48.0,
+      "as_of": "2026-11-30",
+      "label": "Consumer Sentiment Index (Nov prelim.)",
       "source": "University of Michigan",
       "source_url": "https://www.sca.isr.umich.edu/"
     },
     "current_conditions": {
-      "value": 46.7,
-      "prev": 50.9,
-      "as_of": "2026-10-31",
-      "label": "Current Economic Conditions (Oct final)",
+      "value": 51.0,
+      "prev": 46.7,
+      "as_of": "2026-11-30",
+      "label": "Current Economic Conditions (Nov prelim.)",
       "source": "University of Michigan",
       "source_url": "https://www.sca.isr.umich.edu/"
     },
     "expectations": {
-      "value": 48.8,
-      "prev": 46.3,
-      "as_of": "2026-10-31",
-      "label": "Consumer Expectations (Oct final)",
+      "value": 50.9,
+      "prev": 48.8,
+      "as_of": "2026-11-30",
+      "label": "Consumer Expectations (Nov prelim.)",
       "source": "University of Michigan",
       "source_url": "https://www.sca.isr.umich.edu/"
     },
