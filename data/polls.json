@@ -1,6 +1,6 @@
 {
   "note": "Static snapshot of published Reuters economist poll results and market-implied odds context. Refreshed periodically by the maintainer (not live-fetched at runtime) because no free real-time API exists for Reuters/FactSet consensus data. Each entry cites its source article.",
-  "last_curated": "2026-11-09",
+  "last_curated": "2026-11-12",
   "snapshots": [
     {
       "poll_date": "2026-03-26",
@@ -393,6 +393,21 @@
       "urls": [
         "https://finance.yahoo.com/economy/policy/articles/odds-december-rate-hike-jump-173301658.html",
         "https://www.morningstar.com/news/dow-jones/202611091081/week-ahead-for-fx-bonds-us-inflation-data-could-give-clues-on-rate-hike-prospects"
+      ]
+    },
+    {
+      "as_of": "2026-11-10",
+      "meeting": "2026-12-09",
+      "hike_odds_pct": 100.0,
+      "hold_odds_pct": 0.0,
+      "hike_25bp_pct": 88.8,
+      "hike_50bp_pct": 11.2,
+      "year_end_at_least_one_hike_pct": 100.0,
+      "source": "CME FedWatch via Yahoo Finance (after October CPI)",
+      "url": "https://uk.finance.yahoo.com/news/fed-rate-hike-odds-december-035408575.html",
+      "urls": [
+        "https://uk.finance.yahoo.com/news/fed-rate-hike-odds-december-035408575.html",
+        "https://www.investmentnews.com/equities/october-cpi-comes-in-hot-raising-odds-of-a-bigger-than-expected-rate-hike/268961"
       ]
     }
   ],

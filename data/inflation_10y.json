@@ -4,7 +4,7 @@
   "source": "U.S. Bureau of Labor Statistics",
   "source_url": "https://www.bls.gov/cpi/",
   "fetched_via": "Perplexity Finance macro history tool",
-  "last_updated": "2026-10-15",
+  "last_updated": "2026-11-12",
   "data": [
     {
       "date": "2016-03-31",
@@ -761,6 +761,13 @@
       "cpi_yoy": 3.7,
       "core_cpi_yoy": 2.6,
       "unemployment_rate": 4.2
+    },
+    {
+      "date": "2026-10-31",
+      "cpi_yoy": 4.0,
+      "core_cpi_yoy": 2.8,
+      "unemployment_rate": 4.1,
+      "note": "CPI YoY estimated (midpoint method); BLS published no October 2026 YoY rate"
     }
   ],
   "unemployment_source": "U.S. Bureau of Labor Statistics",
