@@ -1,11 +1,11 @@
 {
-  "as_of": "2026-11-12T12:07:31Z",
+  "as_of": "2026-11-16T12:07:15Z",
   "generated_by": "fed-monitor daily refresh",
   "fed_funds": {
     "target_range_low": 3.75,
     "target_range_high": 4.0,
     "effective_rate": 3.88,
-    "effective_rate_date": "2026-11-09",
+    "effective_rate_date": "2026-11-12",
     "last_decision_date": "2026-10-28",
     "last_decision": "Hold",
     "vote": "10-2",
@@ -28,9 +28,9 @@
       "label": "13-Week Bill",
       "maturity": "13W",
       "yield_pct": 4.12,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "as_of": "2026-11-11",
+      "change": -0.01,
+      "change_pct": -0.15,
+      "as_of": "2026-11-13",
       "ticker": "^IRX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5EIRX/"
@@ -38,10 +38,10 @@
     {
       "label": "5-Year Note",
       "maturity": "5Y",
-      "yield_pct": 4.83,
-      "change": 0.02,
-      "change_pct": 0.42,
-      "as_of": "2026-11-11",
+      "yield_pct": 4.98,
+      "change": 0.04,
+      "change_pct": 0.73,
+      "as_of": "2026-11-13",
       "ticker": "^FVX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5EFVX/"
@@ -49,10 +49,10 @@
     {
       "label": "10-Year Note",
       "maturity": "10Y",
-      "yield_pct": 5.0,
-      "change": 0.01,
-      "change_pct": 0.28,
-      "as_of": "2026-11-11",
+      "yield_pct": 5.15,
+      "change": 0.05,
+      "change_pct": 1.0,
+      "as_of": "2026-11-13",
       "ticker": "^TNX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5ETNX/"
@@ -60,10 +60,10 @@
     {
       "label": "30-Year Bond",
       "maturity": "30Y",
-      "yield_pct": 5.36,
-      "change": 0.01,
-      "change_pct": 0.09,
-      "as_of": "2026-11-11",
+      "yield_pct": 5.48,
+      "change": 0.05,
+      "change_pct": 0.88,
+      "as_of": "2026-11-13",
       "ticker": "^TYX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5ETYX/"
@@ -128,28 +128,28 @@
   },
   "oil": {
     "wti": {
-      "price_usd": 85.66,
-      "change": -0.87,
-      "change_pct": -1.01,
-      "day_low": 85.2,
-      "day_high": 87.54,
-      "as_of": "2026-11-12",
+      "price_usd": 87.82,
+      "change": -0.74,
+      "change_pct": -0.84,
+      "day_low": 87.59,
+      "day_high": 89.49,
+      "as_of": "2026-11-16",
       "ticker": "CLUSD",
       "source": "Perplexity Finance market data",
       "source_url": "https://finance.yahoo.com/quote/CLUSD/"
     },
     "brent": {
-      "price_usd": 92.01,
-      "change": -0.75,
-      "change_pct": -0.81,
-      "day_low": 91.19,
-      "day_high": 93.92,
-      "as_of": "2026-11-12",
+      "price_usd": 94.97,
+      "change": -0.87,
+      "change_pct": -0.91,
+      "day_low": 94.46,
+      "day_high": 96.76,
+      "as_of": "2026-11-16",
       "ticker": "BZUSD",
       "source": "Perplexity Finance market data",
       "source_url": "https://finance.yahoo.com/quote/BZUSD/"
     },
-    "context": "Crude slipped about 1% early Thursday (WTI $85.66, Brent $92.01), extending a roughly 18% slide since late October.",
+    "context": "Crude eased about 1% early Monday (WTI $87.82, Brent $94.97) after rebounding late last week; prices remain well below late-October highs.",
     "source": "Perplexity Finance market data",
     "source_url": "https://finance.yahoo.com/"
   },
@@ -158,25 +158,6 @@
       "date_range": "2026-12-08 to 2026-12-09",
       "decision_date": "2026-12-09",
       "market_implied_odds": [
-        {
-          "as_of": "2026-11-05",
-          "hold_pct": 18.8,
-          "hike_pct": 81.2,
-          "hike_25bp_pct": 81.2,
-          "cut_pct": 0.0,
-          "source": "Investing.com Fed Rate Monitor (CME futures)",
-          "source_url": "https://www.investing.com/central-banks/fed-rate-monitor"
-        },
-        {
-          "as_of": "2026-11-06",
-          "hold_pct": 23.2,
-          "hike_pct": 76.8,
-          "hike_25bp_pct": 76.8,
-          "cut_pct": 0.0,
-          "source": "CME FedWatch via Yahoo Finance",
-          "source_url": "https://finance.yahoo.com/economy/policy/articles/odds-december-rate-hike-jump-173301658.html",
-          "note": "After the October jobs report; 66.9% at the Nov 5 close"
-        },
         {
           "as_of": "2026-11-09",
           "hold_pct": 25.0,
@@ -197,9 +178,20 @@
           "source": "CME FedWatch via Yahoo Finance",
           "source_url": "https://uk.finance.yahoo.com/news/fed-rate-hike-odds-december-035408575.html",
           "note": "After hotter-than-expected October CPI and Waller/Logan remarks; 88.8% for 25bp, 11.2% for 50bp, no hold priced"
+        },
+        {
+          "as_of": "2026-11-13",
+          "hold_pct": 0.0,
+          "hike_pct": 100.0,
+          "hike_25bp_pct": 91.3,
+          "hike_50bp_plus_pct": 8.7,
+          "cut_pct": 0.0,
+          "source": "Investing.com Fed Rate Monitor (fed funds futures)",
+          "source_url": "https://www.investing.com/central-banks/fed-rate-monitor",
+          "note": "91.3% for 25bp (4.00-4.25%), 8.7% for 50bp; no hold priced"
         }
       ],
-      "consensus_note": "After October CPI ran hotter than expected (0.4% headline, 0.3% core for a third straight month), CME FedWatch on November 10 priced no chance of a December hold: 88.8% for a 25bp hike and 11.2% for 50bp. Governor Waller said a 50bp hike should be considered, and Dallas Fed's Logan said the Fed could \"move more rapidly this winter.\" The November jobs report (December 4) is the last major release before the December 8-9 meeting.",
+      "consensus_note": "A December 9 hike is fully priced: fed funds futures on November 13 put 91.3% on a 25bp move and 8.7% on 50bp, with no chance of a hold. After hot October CPI, a week of hawkish Fed remarks (Waller, Logan, Williams, Collins, Jefferson) cemented expectations, and traders now see better-than-even odds of a follow-up hike in January. The November jobs report (December 4) is the last major release before the meeting.",
       "economist_forecast": "J.P. Morgan expects a quarter-point hike in December but not a longer hiking cycle; a Reuters poll taken October 16-20 found all 100 economists expect a December hike.",
       "economist_forecast_source_url": "https://www.jpmorgan.com/insights/global-research/economy/fed-rate-cuts",
       "odds_sources": [
@@ -339,13 +331,53 @@
     "year_end_odds": {
       "at_least_one_hike_pct": 100.0,
       "at_least_one_cut_pct": 0.5,
-      "as_of": "2026-11-10",
-      "note": "December is the final 2026 meeting; on November 10 CME FedWatch priced no hold: 88.8% for a 25bp hike and 11.2% for 50bp (up from about 72% for a hike a week earlier).",
-      "source": "CME FedWatch via Yahoo Finance",
-      "source_url": "https://uk.finance.yahoo.com/news/fed-rate-hike-odds-december-035408575.html"
+      "as_of": "2026-11-13",
+      "note": "December is the final 2026 meeting; on November 13 futures priced no hold: 91.3% for a 25bp hike and 8.7% for 50bp.",
+      "source": "Investing.com Fed Rate Monitor",
+      "source_url": "https://www.investing.com/central-banks/fed-rate-monitor"
     }
   },
   "fed_news": [
+    {
+      "date": "2026-11-13",
+      "headline": "Jefferson: inflation trajectory is 'the more important signal' for policy",
+      "summary": "Vice Chair Jefferson said October price data were consistent with well-above-target inflation and that policymakers should weigh 'further policy adjustments,' capping a week of hawkish Fed remarks.",
+      "source": "Federal Reserve Board; Bloomberg via Yahoo Finance",
+      "url": "https://uk.finance.yahoo.com/news/fed-jefferson-says-inflation-determine-000000328.html",
+      "source_url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm"
+    },
+    {
+      "date": "2026-11-13",
+      "headline": "Collins says additional rate increases will be needed soon",
+      "summary": "Boston Fed President Susan Collins said tighter policy may be needed to cool broadening price pressures, even though higher rates weigh on housing affordability.",
+      "source": "Bloomberg via Yahoo Finance",
+      "url": "https://uk.finance.yahoo.com/news/fed-collins-says-inflation-fight-141000214.html",
+      "source_url": "https://uk.finance.yahoo.com/news/fed-collins-says-inflation-fight-141000214.html"
+    },
+    {
+      "date": "2026-11-13",
+      "headline": "10-year Treasury yield ends week near 5.15%, up about 30bp",
+      "summary": "Yields hit three-week highs after hot CPI and hawkish Fed comments; October PPI came in slightly softer than expected but did not change December hike pricing.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield/news/600928",
+      "source_url": "https://tradingeconomics.com/united-states/government-bond-yield/news/600928"
+    },
+    {
+      "date": "2026-11-12",
+      "headline": "Williams: inflation is 'far too high,' more action needed",
+      "summary": "New York Fed President John Williams said the Fed will need to take actions over time to return inflation to 2% in a timely manner.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/fed-s-williams-says-inflation-far-too-high-still-work-to-do",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-11-13/fed-s-williams-says-inflation-far-too-high-still-work-to-do"
+    },
+    {
+      "date": "2026-11-11",
+      "headline": "Goldman adds a March hike to its Fed forecast",
+      "summary": "After a third straight month of upside inflation surprises, Goldman Sachs now expects another hike in March on top of a December 25bp move.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/business/goldman-expects-additional-fed-rate-hike-march-2026-11-11/",
+      "source_url": "https://www.reuters.com/business/goldman-expects-additional-fed-rate-hike-march-2026-11-11/"
+    },
     {
       "date": "2026-11-10",
       "headline": "October CPI rises 0.4%, core 0.3%, both above forecasts",
