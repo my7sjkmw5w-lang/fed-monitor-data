@@ -1,6 +1,6 @@
 {
   "note": "Static snapshot of published Reuters economist poll results and market-implied odds context. Refreshed periodically by the maintainer (not live-fetched at runtime) because no free real-time API exists for Reuters/FactSet consensus data. Each entry cites its source article.",
-  "last_curated": "2026-11-16",
+  "last_curated": "2026-11-19",
   "snapshots": [
     {
       "poll_date": "2026-03-26",
@@ -423,6 +423,21 @@
       "urls": [
         "https://www.investing.com/central-banks/fed-rate-monitor",
         "https://www.cbsnews.com/news/interest-rates-federal-reserve-inflation/"
+      ]
+    },
+    {
+      "as_of": "2026-11-18",
+      "meeting": "2026-12-09",
+      "hike_odds_pct": 100.0,
+      "hold_odds_pct": 0.0,
+      "hike_25bp_pct": 91.7,
+      "hike_50bp_pct": 8.3,
+      "year_end_at_least_one_hike_pct": 100.0,
+      "source": "CME FedWatch via InvestmentNews (after October FOMC minutes)",
+      "url": "https://www.investmentnews.com/equities/the-fed-came-close-to-an-october-rate-hike-fomc-minutes-show/269079",
+      "urls": [
+        "https://www.investmentnews.com/equities/the-fed-came-close-to-an-october-rate-hike-fomc-minutes-show/269079",
+        "https://finance.yahoo.com/economy/policy/articles/traders-now-see-95-chance-140829501.html"
       ]
     }
   ],

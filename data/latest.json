@@ -1,11 +1,11 @@
 {
-  "as_of": "2026-11-16T12:07:15Z",
+  "as_of": "2026-11-19T12:07:04Z",
   "generated_by": "fed-monitor daily refresh",
   "fed_funds": {
     "target_range_low": 3.75,
     "target_range_high": 4.0,
     "effective_rate": 3.88,
-    "effective_rate_date": "2026-11-12",
+    "effective_rate_date": "2026-11-16",
     "last_decision_date": "2026-10-28",
     "last_decision": "Hold",
     "vote": "10-2",
@@ -27,10 +27,10 @@
     {
       "label": "13-Week Bill",
       "maturity": "13W",
-      "yield_pct": 4.12,
-      "change": -0.01,
-      "change_pct": -0.15,
-      "as_of": "2026-11-13",
+      "yield_pct": 4.14,
+      "change": 0.01,
+      "change_pct": 0.17,
+      "as_of": "2026-11-18",
       "ticker": "^IRX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5EIRX/"
@@ -38,10 +38,10 @@
     {
       "label": "5-Year Note",
       "maturity": "5Y",
-      "yield_pct": 4.98,
-      "change": 0.04,
-      "change_pct": 0.73,
-      "as_of": "2026-11-13",
+      "yield_pct": 4.88,
+      "change": -0.02,
+      "change_pct": -0.33,
+      "as_of": "2026-11-18",
       "ticker": "^FVX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5EFVX/"
@@ -49,10 +49,10 @@
     {
       "label": "10-Year Note",
       "maturity": "10Y",
-      "yield_pct": 5.15,
-      "change": 0.05,
-      "change_pct": 1.0,
-      "as_of": "2026-11-13",
+      "yield_pct": 5.07,
+      "change": -0.04,
+      "change_pct": -0.71,
+      "as_of": "2026-11-18",
       "ticker": "^TNX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5ETNX/"
@@ -60,10 +60,10 @@
     {
       "label": "30-Year Bond",
       "maturity": "30Y",
-      "yield_pct": 5.48,
-      "change": 0.05,
-      "change_pct": 0.88,
-      "as_of": "2026-11-13",
+      "yield_pct": 5.41,
+      "change": -0.05,
+      "change_pct": -0.82,
+      "as_of": "2026-11-18",
       "ticker": "^TYX",
       "source": "Perplexity Finance (Yahoo Finance indices)",
       "source_url": "https://finance.yahoo.com/quote/%5ETYX/"
@@ -128,28 +128,28 @@
   },
   "oil": {
     "wti": {
-      "price_usd": 87.82,
-      "change": -0.74,
-      "change_pct": -0.84,
-      "day_low": 87.59,
-      "day_high": 89.49,
-      "as_of": "2026-11-16",
+      "price_usd": 82.5,
+      "change": 0.19,
+      "change_pct": 0.23,
+      "day_low": 81.69,
+      "day_high": 83.06,
+      "as_of": "2026-11-19",
       "ticker": "CLUSD",
       "source": "Perplexity Finance market data",
       "source_url": "https://finance.yahoo.com/quote/CLUSD/"
     },
     "brent": {
-      "price_usd": 94.97,
-      "change": -0.87,
-      "change_pct": -0.91,
-      "day_low": 94.46,
-      "day_high": 96.76,
-      "as_of": "2026-11-16",
+      "price_usd": 92.21,
+      "change": 0.26,
+      "change_pct": 0.28,
+      "day_low": 91.23,
+      "day_high": 93.05,
+      "as_of": "2026-11-19",
       "ticker": "BZUSD",
       "source": "Perplexity Finance market data",
       "source_url": "https://finance.yahoo.com/quote/BZUSD/"
     },
-    "context": "Crude eased about 1% early Monday (WTI $87.82, Brent $94.97) after rebounding late last week; prices remain well below late-October highs.",
+    "context": "Crude is roughly flat early Thursday (WTI $82.50, Brent $92.21) after sliding this week; WTI is about 21% below its late-October level.",
     "source": "Perplexity Finance market data",
     "source_url": "https://finance.yahoo.com/"
   },
@@ -158,27 +158,6 @@
       "date_range": "2026-12-08 to 2026-12-09",
       "decision_date": "2026-12-09",
       "market_implied_odds": [
-        {
-          "as_of": "2026-11-09",
-          "hold_pct": 25.0,
-          "hike_pct": 75.0,
-          "hike_25bp_pct": 75.0,
-          "cut_pct": 0.0,
-          "source": "LSEG money-market pricing via Dow Jones/Morningstar",
-          "source_url": "https://www.morningstar.com/news/dow-jones/202611091081/week-ahead-for-fx-bonds-us-inflation-data-could-give-clues-on-rate-hike-prospects",
-          "note": "Hold implied as remainder"
-        },
-        {
-          "as_of": "2026-11-10",
-          "hold_pct": 0.0,
-          "hike_pct": 100.0,
-          "hike_25bp_pct": 88.8,
-          "hike_50bp_plus_pct": 11.2,
-          "cut_pct": 0.0,
-          "source": "CME FedWatch via Yahoo Finance",
-          "source_url": "https://uk.finance.yahoo.com/news/fed-rate-hike-odds-december-035408575.html",
-          "note": "After hotter-than-expected October CPI and Waller/Logan remarks; 88.8% for 25bp, 11.2% for 50bp, no hold priced"
-        },
         {
           "as_of": "2026-11-13",
           "hold_pct": 0.0,
@@ -189,9 +168,31 @@
           "source": "Investing.com Fed Rate Monitor (fed funds futures)",
           "source_url": "https://www.investing.com/central-banks/fed-rate-monitor",
           "note": "91.3% for 25bp (4.00-4.25%), 8.7% for 50bp; no hold priced"
+        },
+        {
+          "as_of": "2026-11-17",
+          "hold_pct": 0.0,
+          "hike_pct": 100.0,
+          "hike_25bp_pct": 95.0,
+          "hike_50bp_plus_pct": 5.0,
+          "cut_pct": 0.0,
+          "source": "CME FedWatch via Yahoo Finance",
+          "source_url": "https://finance.yahoo.com/economy/policy/articles/traders-now-see-95-chance-140829501.html",
+          "note": "About 95% for 25bp at the Nov 17 close, remainder on 50bp"
+        },
+        {
+          "as_of": "2026-11-18",
+          "hold_pct": 0.0,
+          "hike_pct": 100.0,
+          "hike_25bp_pct": 91.7,
+          "hike_50bp_plus_pct": 8.3,
+          "cut_pct": 0.0,
+          "source": "CME FedWatch via InvestmentNews",
+          "source_url": "https://www.investmentnews.com/equities/the-fed-came-close-to-an-october-rate-hike-fomc-minutes-show/269079",
+          "note": "After October FOMC minutes and Waller's call for 50bp; 91.7% for 25bp, 8.3% for 50bp"
         }
       ],
-      "consensus_note": "A December 9 hike is fully priced: fed funds futures on November 13 put 91.3% on a 25bp move and 8.7% on 50bp, with no chance of a hold. After hot October CPI, a week of hawkish Fed remarks (Waller, Logan, Williams, Collins, Jefferson) cemented expectations, and traders now see better-than-even odds of a follow-up hike in January. The November jobs report (December 4) is the last major release before the meeting.",
+      "consensus_note": "A December 9 hike is fully priced: after the October minutes on November 18, CME FedWatch showed 91.7% for 25bp and 8.3% for 50bp, with no chance of a hold. The minutes said almost all officials expect further hikes and a couple floated more than 25bp; Waller now favors 50bp, while Williams sees no need for 'dramatic action.' Futures also price roughly 70% odds of another hike in January. The November jobs report (December 4) is the last major release before the meeting.",
       "economist_forecast": "J.P. Morgan expects a quarter-point hike in December but not a longer hiking cycle; a Reuters poll taken October 16-20 found all 100 economists expect a December hike.",
       "economist_forecast_source_url": "https://www.jpmorgan.com/insights/global-research/economy/fed-rate-cuts",
       "odds_sources": [
@@ -310,6 +311,14 @@
         {
           "source": "CME FedWatch via Yahoo Finance",
           "source_url": "https://uk.finance.yahoo.com/news/fed-rate-hike-odds-december-035408575.html"
+        },
+        {
+          "source": "CME FedWatch via Yahoo Finance",
+          "source_url": "https://finance.yahoo.com/economy/policy/articles/traders-now-see-95-chance-140829501.html"
+        },
+        {
+          "source": "CME FedWatch via InvestmentNews",
+          "source_url": "https://www.investmentnews.com/equities/the-fed-came-close-to-an-october-rate-hike-fomc-minutes-show/269079"
         }
       ],
       "year_end_odds": {
@@ -331,13 +340,37 @@
     "year_end_odds": {
       "at_least_one_hike_pct": 100.0,
       "at_least_one_cut_pct": 0.5,
-      "as_of": "2026-11-13",
-      "note": "December is the final 2026 meeting; on November 13 futures priced no hold: 91.3% for a 25bp hike and 8.7% for 50bp.",
-      "source": "Investing.com Fed Rate Monitor",
-      "source_url": "https://www.investing.com/central-banks/fed-rate-monitor"
+      "as_of": "2026-11-18",
+      "note": "December is the final 2026 meeting; on November 18 CME FedWatch priced no hold: 91.7% for a 25bp hike and 8.3% for 50bp.",
+      "source": "CME FedWatch via InvestmentNews",
+      "source_url": "https://www.investmentnews.com/equities/the-fed-came-close-to-an-october-rate-hike-fomc-minutes-show/269079"
     }
   },
   "fed_news": [
+    {
+      "date": "2026-11-18",
+      "headline": "October FOMC minutes: hold was a 'close call,' almost all see further hikes",
+      "summary": "Minutes of the Oct. 27-28 meeting show some officials viewed holding at 3.75%-4.00% as a close call; almost all judged further increases likely appropriate, and a couple said more than 25bp could warrant consideration if inflation data were unfavorable.",
+      "source": "Federal Reserve; ABA Banking Journal",
+      "url": "https://bankingjournal.aba.com/2026/11/fomc-minutes-show-close-call-over-possible-rate-hike/",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"
+    },
+    {
+      "date": "2026-11-18",
+      "headline": "Waller now calls for a 50bp December hike",
+      "summary": "Governor Waller told CNBC he is 'very, very concerned' about inflation and sees the need for a half-point hike in December, or a clear signal of faster tightening in 2027.",
+      "source": "AFP",
+      "url": "https://www.afp.com/de/node/3853684",
+      "source_url": "https://www.afp.com/de/node/3853684"
+    },
+    {
+      "date": "2026-11-17",
+      "headline": "Williams sees no need for 'dramatic action'; Musalem wants several hikes before spring",
+      "summary": "New York Fed President Williams said further tightening is likely needed but steered away from a jumbo hike; St. Louis Fed President Musalem said the economy will likely require several rate increases before spring 2027.",
+      "source": "Miami Herald; MT Newswires via Fidelity",
+      "url": "https://www.miamiherald.com/news/business/article318136726.html",
+      "source_url": "https://www.fidelity.com/news/article/us-economy/202611171334MIDNIGHTUSEQUITY_A3755820"
+    },
     {
       "date": "2026-11-13",
       "headline": "Jefferson: inflation trajectory is 'the more important signal' for policy",
